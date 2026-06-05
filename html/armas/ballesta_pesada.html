@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ballesta Pesada — MH Bestiary</title>
+  <link rel="stylesheet" href="../../css/armas.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+  <script src="../../scripts/dropdown.js"></script>
+  <script src="../../scripts/topbar.js"></script>
+</head>
+<body>
+  
+  <!-- ═══════════════════════════════════════════
+       TOPBAR
+  ═══════════════════════════════════════════ -->
+  <header class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <a href="landingpage.html" class="topbar__logo" aria-label="Inicio">
+        <span class="topbar__logo-icon">⚔</span>
+        <span class="topbar__logo-text">MH<em>Bestiary</em></span>
+      </a>
+      <div class="topbar__search">
+        <span class="topbar__search-icon">🔍</span>
+        <input type="text" placeholder="Buscar monstruo, región, tipo…" aria-label="Buscar" />
+      </div>
+      <nav class="topbar__actions">
+        <button class="btn btn--ghost">Iniciar sesión</button>
+        <button class="btn btn--primary">Crear cuenta</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       LAYOUT
+  ═══════════════════════════════════════════ -->
+  <div class="layout">
+
+    <!-- ─── SIDEBAR ─────────────────────────────── -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar__header">
+        <span>CATEGORÍAS</span>
+      </div>
+      <nav class="sidebar__nav">
+
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🐉</span>
+            <span>Monstruos</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Anfibios</a></li>
+            <li><a href="#" class="sidebar__subitem">Bestia colmillos</a></li>
+            <li><a href="#" class="sidebar__subitem">Carapaceon</a></li>
+            <li><a href="#" class="sidebar__subitem">Cefalópodos</a></li>
+            <li><a href="#" class="sidebar__subitem">Constructos</a></li>
+            <li><a href="#" class="sidebar__subitem">Leviatanes</a></li>
+            <li><a href="#" class="sidebar__subitem">Neopterons</a></li>
+            <li><a href="#" class="sidebar__subitem">No clasificados</a></li>
+            <li><a href="#" class="sidebar__subitem">Relictos</a></li>
+            <li><a href="#" class="sidebar__subitem">Semiancianos</a></li>
+            <li><a href="#" class="sidebar__subitem">Temnoceran</a></li>
+            <li><a href="#" class="sidebar__subitem">Wyverns Brutal</a></li>
+            <li><a href="#" class="sidebar__subitem">Wyverns de Colmillos</a></li>
+            <li><a href="#" class="sidebar__subitem">Wyverns Nadador</a></li>
+            <li><a href="#" class="sidebar__subitem">Wyverns Pájaro</a></li>
+            <li><a href="#" class="sidebar__subitem">Wyverns Serpiente</a></li>
+            <li><a href="#" class="sidebar__subitem">Wyverns Volador</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🦖</span>
+            <span>Armas</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="gran_espada.html" class="sidebar__subitem">Gran espada</a></li>
+            <li><a href="espada_larga.html" class="sidebar__subitem">Espada larga</a></li>
+            <li><a href="espada_y_escudo.html" class="sidebar__subitem">Espada y escudo</a></li>
+            <li><a href="espadas_dobles.html" class="sidebar__subitem">Espadas dobles</a></li>
+            <li><a href="martillo.html" class="sidebar__subitem">Martillo</a></li>
+            <li><a href="cornamusa.html" class="sidebar__subitem">Cornamusa</a></li>
+            <li><a href="lanza.html" class="sidebar__subitem">Lanza</a></li>
+            <li><a href="lanza_pistola.html" class="sidebar__subitem">Lanza pistola</a></li>
+            <li><a href="hacha_espada.html" class="sidebar__subitem">Hacha espada</a></li>
+            <li><a href="glaive_insecto.html" class="sidebar__subitem">Glaive insecto</a></li>
+            <li><a href="hacha_cargada.html" class="sidebar__subitem">Hacha cargada</a></li>
+            <li><a href="ballesta_ligera.html" class="sidebar__subitem">Ballesta ligera</a></li>
+            <li><a href="ballesta_pesada.html" class="sidebar__subitem">Ballesta pesada</a></li>
+            <li><a href="arco.html" class="sidebar__subitem">Arco</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🦅</span>
+            <span>Bird Wyverns</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Rathian</a></li>
+            <li><a href="#" class="sidebar__subitem">Yian Kut-Ku</a></li>
+            <li><a href="#" class="sidebar__subitem">Plesioth</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌊</span>
+            <span>Leviathans</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Lagiacrus</a></li>
+            <li><a href="#" class="sidebar__subitem">Lavasioth</a></li>
+            <li><a href="#" class="sidebar__subitem">Royal Ludroth</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🕷</span>
+            <span>Temnocerans</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Nerscylla</a></li>
+            <li><a href="#" class="sidebar__subitem">Seltas Queen</a></li>
+            <li><a href="#" class="sidebar__subitem">Seltas</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌿</span>
+            <span>Herbívoros</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Aptonoth</a></li>
+            <li><a href="#" class="sidebar__subitem">Popo</a></li>
+            <li><a href="#" class="sidebar__subitem">Slagtoth</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🦂</span>
+            <span>Neopterans</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Vespoid</a></li>
+            <li><a href="#" class="sidebar__subitem">Hornetaur</a></li>
+            <li><a href="#" class="sidebar__subitem">Bnahabra</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🏔</span>
+            <span>Fanged Beasts</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Great Jagras</a></li>
+            <li><a href="#" class="sidebar__subitem">Odogaron</a></li>
+            <li><a href="#" class="sidebar__subitem">Ebony Odogaron</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌋</span>
+            <span>Flying Wyverns</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Rathalos</a></li>
+            <li><a href="#" class="sidebar__subitem">Rathian</a></li>
+            <li><a href="#" class="sidebar__subitem">Kulu-Ya-Ku</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">💀</span>
+            <span>Apex Monsters</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Scorned Magnamalo</a></li>
+            <li><a href="#" class="sidebar__subitem">Furious Rajang</a></li>
+            <li><a href="#" class="sidebar__subitem">Malzeno</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">⚡</span>
+            <span>Elder Dragons</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Nergigante</a></li>
+            <li><a href="#" class="sidebar__subitem">Teostra</a></li>
+            <li><a href="#" class="sidebar__subitem">Kushala Daora</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌑</span>
+            <span>Aberraciones</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Amatsu</a></li>
+            <li><a href="#" class="sidebar__subitem">Furious Rajang</a></li>
+            <li><a href="#" class="sidebar__subitem">Scorned Magnamalo</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🔥</span>
+            <span>Elemento Fuego</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Rathalos</a></li>
+            <li><a href="#" class="sidebar__subitem">Teostra</a></li>
+            <li><a href="#" class="sidebar__subitem">Anjanath</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">❄</span>
+            <span>Elemento Hielo</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Legiana</a></li>
+            <li><a href="#" class="sidebar__subitem">Alatreon</a></li>
+            <li><a href="#" class="sidebar__subitem">Velkhana</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">☠</span>
+            <span>Elemento Veneno</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Pukei-Pukei</a></li>
+            <li><a href="#" class="sidebar__subitem">Tobi-Kadachi</a></li>
+            <li><a href="#" class="sidebar__subitem">Viper Tobi-Kadachi</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌪</span>
+            <span>Elemento Viento</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Kulu-Ya-Ku</a></li>
+            <li><a href="#" class="sidebar__subitem">Yian Garuga</a></li>
+            <li><a href="#" class="sidebar__subitem">Fulgur Anjanath</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌩</span>
+            <span>Elemento Rayo</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Tobi-Kadachi</a></li>
+            <li><a href="#" class="sidebar__subitem">Zinogre</a></li>
+            <li><a href="#" class="sidebar__subitem">Rajang</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌊</span>
+            <span>Elemento Agua</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Jyuratodus</a></li>
+            <li><a href="#" class="sidebar__subitem">Mizutsune</a></li>
+            <li><a href="#" class="sidebar__subitem">Lagiacrus</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🔮</span>
+            <span>Elemento Dragón</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Kushala Daora</a></li>
+            <li><a href="#" class="sidebar__subitem">Chameleos</a></li>
+            <li><a href="#" class="sidebar__subitem">Amatsu</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🗺</span>
+            <span>Por Región</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Ancient Forest</a></li>
+            <li><a href="#" class="sidebar__subitem">Wildspire Waste</a></li>
+            <li><a href="#" class="sidebar__subitem">Coral Highlands</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">⭐</span>
+            <span>Rango Maestro</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Fury</a></li>
+            <li><a href="#" class="sidebar__subitem">Malzeno</a></li>
+            <li><a href="#" class="sidebar__subitem">Scorned Magnamalo</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🏆</span>
+            <span>Jefes Finales</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Elder Dragons</a></li>
+            <li><a href="#" class="sidebar__subitem">Apex Monsters</a></li>
+            <li><a href="#" class="sidebar__subitem">Malzeno</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </aside>
+    <!-- ─── MAIN ─────────────────────────────────── -->
+    <main class="main-content">
+
+      <!-- PAGE HEADER -->
+      <div class="page-header">
+        <div class="page-header__ornament">✦ ✦ ✦</div>
+        <h1 class="page-header__title">Ballesta Pesada</h1>
+        <p class="page-header__subtitle">El arma más pesada del arsenal del cazador</p>
+        <div class="page-header__divider"></div>
+      </div>
+
+      <!-- ══════════════════════════════════════════
+           SECCIÓN 1 — PRESENTACIÓN
+      ══════════════════════════════════════════ -->
+      <section class="weapon-hero">
+        <div class="weapon-hero__image-col">
+          <div class="weapon-hero__image-wrap">
+            <!-- Placeholder — reemplaza src con la imagen real -->
+            <img src="../../img/ballesta pesada.png" alt="Ballesta Pesada" />
+            <div class="weapon-hero__image-glow" aria-hidden="true"></div>
+          </div>
+          <div class="weapon-hero__badge">
+            <span class="weapon-hero__badge-icon">🏹</span>
+            <span class="weapon-hero__badge-text">Ballesta Pesada</span>
+          </div>
+        </div>
+
+        <div class="weapon-hero__info-col">
+
+          <div class="weapon-hero__meta">
+            <span class="weapon-hero__tag">Introducida en</span>
+            <span class="weapon-hero__game">Monster Hunter (2004)</span>
+          </div>
+
+          <p class="weapon-hero__lore">
+            La Ballesta Pesada es el arma más pesada del arsenal del cazador.
+            Su diseño robusto y su peso considerable permiten un manejo poderoso y preciso,
+            ideal para ataques devastadores a corta distancia. Quienes la dominan no persiguen a su presa:
+            la esperan, la leen y descargan todo su poder en el momento exacto.
+          </p>
+
+          <div class="weapon-hero__divider"></div>
+
+          <!-- STATS -->
+          <div class="weapon-stats">
+            <div class="weapon-stats__row">
+              <span class="weapon-stats__label">Tipo de daño</span>
+              <span class="weapon-stats__value">Corte</span>
+            </div>
+            <div class="weapon-stats__row">
+              <span class="weapon-stats__label">Daño base (máx.)</span>
+              <span class="weapon-stats__value weapon-stats__value--gold">1 344</span>
+            </div>
+            <div class="weapon-stats__row">
+              <span class="weapon-stats__label">Afinidad</span>
+              <span class="weapon-stats__value">0 %</span>
+            </div>
+            <div class="weapon-stats__row">
+              <span class="weapon-stats__label">Ranuras de decoración</span>
+              <span class="weapon-stats__value">③ ① —</span>
+            </div>
+            <div class="weapon-stats__row">
+              <span class="weapon-stats__label">Elemento</span>
+              <span class="weapon-stats__value weapon-stats__value--muted">Ninguno</span>
+            </div>
+            <div class="weapon-stats__row">
+              <span class="weapon-stats__label">Tipo de golpe cargado</span>
+              <span class="weapon-stats__value">Slash / Overhead</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════
+           SECCIÓN 2 — ÁRBOL DE MEJORAS (Iceborne)
+      ══════════════════════════════════════════ -->
+      <section class="weapon-section">
+        <div class="section-header">
+          <h2 class="section-header__title">Árbol de mejoras</h2>
+          <span class="section-header__sub">Monster Hunter World: Iceborne</span>
+        </div>
+
+        <div class="upgrade-tree">
+
+          <!-- Rama Bony -->
+          <div class="tree-branch">
+            <div class="tree-branch__root">
+              <span class="tree-branch__root-icon">🦴</span>
+              <span class="tree-branch__root-name">Rama Bony</span>
+            </div>
+            <div class="tree-line">
+              <div class="tree-node tree-node--base">
+                <span class="tree-node__name">Bone Blade I</span>
+                <span class="tree-node__atk">168</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node">
+                <span class="tree-node__name">Bone Blade II</span>
+                <span class="tree-node__atk">192</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node">
+                <span class="tree-node__name">Bone Blade III</span>
+                <span class="tree-node__atk">216</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--final">
+                <span class="tree-node__name">Buster Sword I</span>
+                <span class="tree-node__atk">384</span>
+                <span class="tree-node__slots">② —</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--master">
+                <span class="tree-node__crown" aria-hidden="true">◆</span>
+                <span class="tree-node__name">Devastation's Mark</span>
+                <span class="tree-node__atk">1 104</span>
+                <span class="tree-node__slots">③ ① ①</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rama Ore -->
+          <div class="tree-branch">
+            <div class="tree-branch__root">
+              <span class="tree-branch__root-icon">⛏</span>
+              <span class="tree-branch__root-name">Rama Ore</span>
+            </div>
+            <div class="tree-line">
+              <div class="tree-node tree-node--base">
+                <span class="tree-node__name">Iron Blade I</span>
+                <span class="tree-node__atk">168</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node">
+                <span class="tree-node__name">Iron Blade II</span>
+                <span class="tree-node__atk">192</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node">
+                <span class="tree-node__name">Steel Blade I</span>
+                <span class="tree-node__atk">240</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--final">
+                <span class="tree-node__name">Immovable Dharma</span>
+                <span class="tree-node__atk">432</span>
+                <span class="tree-node__slots">③ ②</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--master">
+                <span class="tree-node__crown" aria-hidden="true">◆</span>
+                <span class="tree-node__name">Immovable Dharma+</span>
+                <span class="tree-node__atk">1 200</span>
+                <span class="tree-node__slots">③ ② ①</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rama Nergigante -->
+          <div class="tree-branch">
+            <div class="tree-branch__root">
+              <span class="tree-branch__root-icon">🐉</span>
+              <span class="tree-branch__root-name">Rama Nergigante</span>
+            </div>
+            <div class="tree-line">
+              <div class="tree-node tree-node--monster">
+                <span class="tree-node__name">Decimation Claws I</span>
+                <span class="tree-node__atk">864</span>
+                <span class="tree-node__slots">② —</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--monster">
+                <span class="tree-node__name">Decimation Claws II</span>
+                <span class="tree-node__atk">912</span>
+                <span class="tree-node__slots">② ①</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--master">
+                <span class="tree-node__crown" aria-hidden="true">◆</span>
+                <span class="tree-node__name">Ruinous Decimation</span>
+                <span class="tree-node__atk">1 248</span>
+                <span class="tree-node__slots">③ ② ①</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rama Rathalos -->
+          <div class="tree-branch">
+            <div class="tree-branch__root">
+              <span class="tree-branch__root-icon">🔥</span>
+              <span class="tree-branch__root-name">Rama Rathalos</span>
+            </div>
+            <div class="tree-line">
+              <div class="tree-node tree-node--monster">
+                <span class="tree-node__name">Rathalos Firesword I</span>
+                <span class="tree-node__atk">768</span>
+                <span class="tree-node__elem tree-node__elem--fire">Fuego 180</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--monster">
+                <span class="tree-node__name">Rathalos Firesword II</span>
+                <span class="tree-node__atk">816</span>
+                <span class="tree-node__elem tree-node__elem--fire">Fuego 210</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--master">
+                <span class="tree-node__crown" aria-hidden="true">◆</span>
+                <span class="tree-node__name">Rath Gleam</span>
+                <span class="tree-node__atk">1 152</span>
+                <span class="tree-node__elem tree-node__elem--fire">Fuego 300</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rama Velkhana -->
+          <div class="tree-branch">
+            <div class="tree-branch__root">
+              <span class="tree-branch__root-icon">❄</span>
+              <span class="tree-branch__root-name">Rama Velkhana</span>
+            </div>
+            <div class="tree-line">
+              <div class="tree-node tree-node--monster">
+                <span class="tree-node__name">Frostfang I</span>
+                <span class="tree-node__atk">1 008</span>
+                <span class="tree-node__elem tree-node__elem--ice">Hielo 240</span>
+              </div>
+              <div class="tree-node__arrow">▼</div>
+              <div class="tree-node tree-node--master">
+                <span class="tree-node__crown" aria-hidden="true">◆</span>
+                <span class="tree-node__name">Frostfang Barioth GS</span>
+                <span class="tree-node__atk">1 296</span>
+                <span class="tree-node__elem tree-node__elem--ice">Hielo 360</span>
+                <span class="tree-node__slots">③ ③ ①</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Legend -->
+        <div class="tree-legend">
+          <span class="tree-legend__item"><span class="tree-node__crown">◆</span> Rango Maestro (Iceborne)</span>
+          <span class="tree-legend__item tree-legend__item--monster">🐉 Requiere materiales de monstruo</span>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════
+           SECCIÓN 3 — CRAFTEO
+      ══════════════════════════════════════════ -->
+      <section class="weapon-section">
+        <div class="section-header">
+          <h2 class="section-header__title">Materiales de crafteo</h2>
+          <span class="section-header__sub">Ejemplo: Ruinous Decimation (Nergigante MR)</span>
+        </div>
+
+        <div class="craft-table-wrap">
+          <table class="craft-table">
+            <thead>
+              <tr>
+                <th class="craft-table__th">Material</th>
+                <th class="craft-table__th craft-table__th--center">Cantidad</th>
+                <th class="craft-table__th">Procedencia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="craft-table__row">
+                <td class="craft-table__td craft-table__td--name">Garra de Ruiner Nergigante</td>
+                <td class="craft-table__td craft-table__td--center">×2</td>
+                <td class="craft-table__td craft-table__td--source">Recompensa caza / Carving MR</td>
+              </tr>
+              <tr class="craft-table__row">
+                <td class="craft-table__td craft-table__td--name">Espina de Ruiner Nergigante</td>
+                <td class="craft-table__td craft-table__td--center">×3</td>
+                <td class="craft-table__td craft-table__td--source">Recompensa caza MR</td>
+              </tr>
+              <tr class="craft-table__row">
+                <td class="craft-table__td craft-table__td--name">Cola de Ruiner Nergigante</td>
+                <td class="craft-table__td craft-table__td--center">×1</td>
+                <td class="craft-table__td craft-table__td--source">Cortar cola (carving)</td>
+              </tr>
+              <tr class="craft-table__row">
+                <td class="craft-table__td craft-table__td--name">Gema de Ruiner Nergigante</td>
+                <td class="craft-table__td craft-table__td--center">×1</td>
+                <td class="craft-table__td craft-table__td--source">Recompensa plateada / Carving raro</td>
+              </tr>
+              <tr class="craft-table__row">
+                <td class="craft-table__td craft-table__td--name">Zenny</td>
+                <td class="craft-table__td craft-table__td--center">×32 000</td>
+                <td class="craft-table__td craft-table__td--source">—</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </main>
+  </div><!-- /.layout -->
+
+</body>
+</html>
