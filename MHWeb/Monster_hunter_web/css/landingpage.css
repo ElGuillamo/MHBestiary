@@ -625,9 +625,7 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
     display: none;
   }
 
-  .sidebar__item-toggle span:last-child {
-    display: none;
-  }
+  .sidebar__item-toggle span:not(.sidebar__item-icon):not(.sidebar__item-arrow) { display: none; }
 
   .sidebar__item-toggle {
     justify-content: center;
@@ -662,7 +660,7 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .sidebar--expanded { width: 240px !important; z-index: 200; box-shadow: 4px 0 32px #00000080;}
   .sidebar--expanded .sidebar__header { display: block; }
   .sidebar--expanded .sidebar__item-toggle { justify-content: flex-start; padding: clamp(7px, 1vw, 10px) clamp(12px, 1.5vw, 18px); border-left: 2px solid transparent;}
-  .sidebar--expanded .sidebar__item-toggle span { display: inline; }
+  .sidebar--expanded .sidebar__item-toggle span:not(.sidebar__item-icon):not(.sidebar__item-arrow) { display: inline; }
   .sidebar--expanded .sidebar__item-arrow { display: inline; }
   .sidebar--expanded .sidebar__item-icon { font-size: clamp(13px, 1.3vw, 16px); }
   .sidebar--expanded .sidebar__submenu { display: flex !important; flex-direction: column; max-height: 0; opacity: 0; overflow: hidden; transition: max-height 0.28s ease, opacity 0.22s ease;}
@@ -713,6 +711,11 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .monster-grid {
     grid-template-columns: repeat(5, 1fr);
   }
+}
+
+@keyframes overlay-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /* ── SCROLLBAR (global, Webkit) ──────────────────────── */
