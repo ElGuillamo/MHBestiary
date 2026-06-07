@@ -475,53 +475,7 @@ img { display: block; width: 100%; height: 100%; object-fit: contain; }
   pointer-events: none;
 }
 
-.weapon-hero__badge {
-  position: relative;
-  width: clamp(120px, 18%, 200px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
- 
-/* Contenedor que apila logo y frame */
-.weapon-hero__badge-frame {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
- 
-/* Logo de la gran espada — centrado, coloreado dorado */
-.weapon-hero__badge-logo {
-  position: absolute;
-  width: 72%;
-  height: 72%;
-  object-fit: contain;
-  z-index: 1;
-} 
-/* Frame PNG encima del logo */
-.weapon-hero__badge-border {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  z-index: 2;
-  pointer-events: none;
- 
-  /* Colorea el frame dorado */
-  filter:
-    sepia(1)
-    saturate(2.5)
-    hue-rotate(5deg)
-    brightness(0.85)
-    drop-shadow(0 0 8px #c8902a40);
- 
-  transition: filter 0.4s var(--ease-out);
-}
- 
+
 /* Info column */
 .weapon-hero__info-col {
   display: flex;
