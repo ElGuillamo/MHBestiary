@@ -116,7 +116,7 @@ a { color: inherit; text-decoration: none; }
 .hero__top-symbol { font-size: 12px; color: var(--c-gold); filter: drop-shadow(0 0 6px var(--c-gold)); }
 
 /* Eyebrow */
-.hero__eyebrow { font-family: var(--f-ui); font-size: clamp(9px, 1.1vw, 13px); letter-spacing: 0.35em; text-transform: uppercase; color: var(--c-text-muted); animation: fade-up 1s var(--ease-out) 0.2s both; }
+.hero__eyebrow { font-family: var(--f-ui); font-size: clamp(9px, 1.1vw, 13px); letter-spacing: 0.35em; text-transform: uppercase; color: var(--c-text-secondary); animation: fade-up 1s var(--ease-out) 0.2s both; }
 
 /* Título */
 .hero__title { display: flex; flex-direction: column; gap: clamp(2px, 0.5vw, 6px); animation: fade-up 1.1s var(--ease-out) 0.35s both; }

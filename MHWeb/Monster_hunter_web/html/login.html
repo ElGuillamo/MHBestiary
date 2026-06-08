@@ -31,6 +31,17 @@
     </div>
   </header>
 
+  <!-- FONDO -->
+  <div class="bg-layers" aria-hidden="true">
+    <div class="bg-vignette"></div>
+    <canvas id="ember-canvas"></canvas>
+    <div class="rune-ring rune-ring--1"></div>
+    <div class="rune-ring rune-ring--2"></div>
+    <div class="rune-ring rune-ring--3"></div>
+    <div class="deco-line deco-line--left"></div>
+    <div class="deco-line deco-line--right"></div>
+  </div>
+
   <!-- ═══════════════════════════════════════════
        LOGIN WRAPPER
   ═══════════════════════════════════════════ -->
@@ -103,8 +114,6 @@
   </main>
 
   <script>
-    
-    // Toggle password visibility
     const togglePass = document.getElementById('togglePass');
     const passInput = document.getElementById('password');
     togglePass.addEventListener('click', () => {
@@ -112,8 +121,37 @@
       passInput.type = isText ? 'password' : 'text';
       togglePass.textContent = isText ? '🙈' : '🐵';
     });
-
   </script>
 
+  <script>
+    // Brasas flotantes
+    const canvas = document.getElementById('ember-canvas');
+    const ctx = canvas.getContext('2d');
+    let W, H;
+    function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
+    resize();
+    window.addEventListener('resize', resize);
+    function randomEmber() {
+      return { x: Math.random() * W, y: H + Math.random() * 40, r: Math.random() * 3 + 0.8,
+        vx: (Math.random() - 0.5) * 0.6, vy: -(Math.random() * 1.2 + 0.4),
+        life: 1, fade: Math.random() * 0.004 + 0.002, hue: Math.random() * 30 + 20 };
+    }
+    const embers = Array.from({ length: 120 }, () => { const e = randomEmber(); e.y = Math.random() * H; return e; });
+    function animateEmbers() {
+      ctx.clearRect(0, 0, W, H);
+      embers.forEach((e, i) => {
+        e.x += e.vx + Math.sin(Date.now() * 0.001 + i) * 0.3;
+        e.y += e.vy; e.life -= e.fade;
+        if (e.life <= 0 || e.y < -10) { embers[i] = randomEmber(); return; }
+        ctx.save(); ctx.globalAlpha = e.life * 0.7;
+        ctx.beginPath(); ctx.arc(e.x, e.y, e.r, 0, Math.PI * 2);
+        ctx.fillStyle = `hsl(${e.hue}, 90%, 65%)`;
+        ctx.shadowBlur = 6; ctx.shadowColor = `hsl(${e.hue}, 100%, 50%)`;
+        ctx.fill(); ctx.restore();
+      });
+      requestAnimationFrame(animateEmbers);
+    }
+    animateEmbers();
+  </script>
 </body>
 </html>
