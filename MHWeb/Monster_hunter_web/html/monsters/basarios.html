@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basarios — MH Bestiary</title>
+  
+  <link rel="stylesheet" href="../../css/monster.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <script src="../../scripts/sidebar.js" defer></script>
+  <script src="../../scripts/lightbox.js" defer></script>
+  <script src="../../scripts/topbar.js" defer></script>
+  <script src="../../scripts/reward_tabs.js" defer></script>
+</head>
+<body>
+
+  <!-- ═══════════════════ TOPBAR ═══════════════════ -->
+  <header class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <a href="../landingpage.html" class="topbar__logo" aria-label="Inicio">
+        <span class="topbar__logo-icon">⚔</span>
+        <span class="topbar__logo-text">MH<em>Bestiary</em></span>
+      </a>
+      
+      <div class="topbar__search">
+        <span class="topbar__search-icon">🔍</span>
+        <input type="text" placeholder="Buscar monstruo, región, tipo…" aria-label="Buscar" />
+      </div>
+      
+      <nav class="topbar__actions">
+        <a href="../login.html">
+          <button class="btn btn--ghost">Iniciar sesión</button>
+        </a>
+        <a href="../register.html">
+          <button class="btn btn--primary">Crear cuenta</button>
+        </a>
+      </nav>
+    
+    </div>
+  </header>
+
+   <!-- ═══════════════════════════════════════════
+       LAYOUT WRAPPER
+  ═══════════════════════════════════════════ -->
+  <div class="layout">
+
+    <!-- ─── SIDEBAR ─────────────────────────────── -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar__header">
+        <span>CATEGORÍAS</span>
+      </div>
+      <nav class="sidebar__nav">
+
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🐉</span>
+            <span>Monstruos</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="categorías/anfibios.html" class="sidebar__subitem">Anfibios</a></li>
+            <li><a href="categorías/bestias_colmillos.html" class="sidebar__subitem">Bestias de Colmillos</a></li>
+            <li><a href="categorías/carapaceon.html" class="sidebar__subitem">Carapaceon</a></li>
+            <li><a href="categorías/cefalópodos.html" class="sidebar__subitem">Cefalópodos</a></li>
+            <li><a href="categorías/constructos.html" class="sidebar__subitem">Constructos</a></li>
+            <li><a href="categorías/dragones_ancianos.html" class="sidebar__subitem">Dragones ancianos</a></li>
+            <li><a href="categorías/leviatanes.html" class="sidebar__subitem">Leviatanes</a></li>
+            <li><a href="categorías/neopterons.html" class="sidebar__subitem">Neopterons</a></li>
+            <li><a href="categorías/no_clasificados.html" class="sidebar__subitem">No clasificados</a></li>
+            <li><a href="categorías/relictos.html" class="sidebar__subitem">Relictos</a></li>
+            <li><a href="categorías/semiancianos.html" class="sidebar__subitem">Semiancianos</a></li>
+            <li><a href="categorías/temnocerans.html" class="sidebar__subitem">Temnocerans</a></li>
+            <li><a href="categorías/wyverns_brutales.html" class="sidebar__subitem">Wyverns Brutales</a></li>
+            <li><a href="categorías/wyverns_colmillos.html" class="sidebar__subitem">Wyverns de Colmillos</a></li>
+            <li><a href="categorías/wyverns_nadador.html" class="sidebar__subitem">Wyverns Nadador</a></li>
+            <li><a href="categorías/wyverns_pájaro.html" class="sidebar__subitem">Wyverns Pájaro</a></li>
+            <li><a href="categorías/wyverns_serpiente.html" class="sidebar__subitem">Wyverns Serpiente</a></li>
+            <li><a href="categorías/wyverns_volador.html" class="sidebar__subitem">Wyverns Volador</a></li>
+            <li><a href="categorías/???.html" class="sidebar__subitem">???</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">⚔</span>
+            <span>Armas</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="../armas/gran_espada.html" class="sidebar__subitem">Gran espada</a></li>
+            <li><a href="../armas/espada_larga.html" class="sidebar__subitem">Espada larga</a></li>
+            <li><a href="../armas/espada_escudo.html" class="sidebar__subitem">Espada y escudo</a></li>
+            <li><a href="../armas/espadas_dobles.html" class="sidebar__subitem">Espadas dobles</a></li>
+            <li><a href="../armas/martillo.html" class="sidebar__subitem">Martillo</a></li>
+            <li><a href="../armas/cornamusa.html" class="sidebar__subitem">Cornamusa</a></li>
+            <li><a href="../armas/lanza.html" class="sidebar__subitem">Lanza</a></li>
+            <li><a href="../armas/lanza_pistola.html" class="sidebar__subitem">Lanza pistola</a></li>
+            <li><a href="../armas/hacha_espada.html" class="sidebar__subitem">Hacha espada</a></li>
+            <li><a href="../armas/glaive_insecto.html" class="sidebar__subitem">Glaive insecto</a></li>
+            <li><a href="../armas/hacha_cargada.html" class="sidebar__subitem">Hacha cargada</a></li>
+            <li><a href="../armas/ballesta_ligera.html" class="sidebar__subitem">Ballesta ligera</a></li>
+            <li><a href="../armas/ballesta_pesada.html" class="sidebar__subitem">Ballesta pesada</a></li>
+            <li><a href="../armas/arco.html" class="sidebar__subitem">Arco</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🦅</span>
+            <span>Bird Wyverns</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Rathian</a></li>
+            <li><a href="#" class="sidebar__subitem">Yian Kut-Ku</a></li>
+            <li><a href="#" class="sidebar__subitem">Plesioth</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌊</span>
+            <span>Leviathans</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Lagiacrus</a></li>
+            <li><a href="#" class="sidebar__subitem">Lavasioth</a></li>
+            <li><a href="#" class="sidebar__subitem">Royal Ludroth</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🕷</span>
+            <span>Temnocerans</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Nerscylla</a></li>
+            <li><a href="#" class="sidebar__subitem">Seltas Queen</a></li>
+            <li><a href="#" class="sidebar__subitem">Seltas</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌿</span>
+            <span>Herbívoros</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Aptonoth</a></li>
+            <li><a href="#" class="sidebar__subitem">Popo</a></li>
+            <li><a href="#" class="sidebar__subitem">Slagtoth</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🦂</span>
+            <span>Neopterans</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Vespoid</a></li>
+            <li><a href="#" class="sidebar__subitem">Hornetaur</a></li>
+            <li><a href="#" class="sidebar__subitem">Bnahabra</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🏔</span>
+            <span>Fanged Beasts</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Great Jagras</a></li>
+            <li><a href="#" class="sidebar__subitem">Odogaron</a></li>
+            <li><a href="#" class="sidebar__subitem">Ebony Odogaron</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌋</span>
+            <span>Flying Wyverns</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Rathalos</a></li>
+            <li><a href="#" class="sidebar__subitem">Rathian</a></li>
+            <li><a href="#" class="sidebar__subitem">Kulu-Ya-Ku</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">💀</span>
+            <span>Apex Monsters</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Scorned Magnamalo</a></li>
+            <li><a href="#" class="sidebar__subitem">Furious Rajang</a></li>
+            <li><a href="#" class="sidebar__subitem">Malzeno</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">⚡</span>
+            <span>Elder Dragons</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Nergigante</a></li>
+            <li><a href="#" class="sidebar__subitem">Teostra</a></li>
+            <li><a href="#" class="sidebar__subitem">Kushala Daora</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌑</span>
+            <span>Aberraciones</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Amatsu</a></li>
+            <li><a href="#" class="sidebar__subitem">Furious Rajang</a></li>
+            <li><a href="#" class="sidebar__subitem">Scorned Magnamalo</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🔥</span>
+            <span>Elemento Fuego</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Rathalos</a></li>
+            <li><a href="#" class="sidebar__subitem">Teostra</a></li>
+            <li><a href="#" class="sidebar__subitem">Anjanath</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">❄</span>
+            <span>Elemento Hielo</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Legiana</a></li>
+            <li><a href="#" class="sidebar__subitem">Alatreon</a></li>
+            <li><a href="#" class="sidebar__subitem">Velkhana</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">☠</span>
+            <span>Elemento Veneno</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Pukei-Pukei</a></li>
+            <li><a href="#" class="sidebar__subitem">Tobi-Kadachi</a></li>
+            <li><a href="#" class="sidebar__subitem">Viper Tobi-Kadachi</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌪</span>
+            <span>Elemento Viento</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Kulu-Ya-Ku</a></li>
+            <li><a href="#" class="sidebar__subitem">Yian Garuga</a></li>
+            <li><a href="#" class="sidebar__subitem">Fulgur Anjanath</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌩</span>
+            <span>Elemento Rayo</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Tobi-Kadachi</a></li>
+            <li><a href="#" class="sidebar__subitem">Zinogre</a></li>
+            <li><a href="#" class="sidebar__subitem">Rajang</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🌊</span>
+            <span>Elemento Agua</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Jyuratodus</a></li>
+            <li><a href="#" class="sidebar__subitem">Mizutsune</a></li>
+            <li><a href="#" class="sidebar__subitem">Lagiacrus</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🔮</span>
+            <span>Elemento Dragón</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Kushala Daora</a></li>
+            <li><a href="#" class="sidebar__subitem">Chameleos</a></li>
+            <li><a href="#" class="sidebar__subitem">Amatsu</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🗺</span>
+            <span>Por Región</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Ancient Forest</a></li>
+            <li><a href="#" class="sidebar__subitem">Wildspire Waste</a></li>
+            <li><a href="#" class="sidebar__subitem">Coral Highlands</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">⭐</span>
+            <span>Rango Maestro</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Fury</a></li>
+            <li><a href="#" class="sidebar__subitem">Malzeno</a></li>
+            <li><a href="#" class="sidebar__subitem">Scorned Magnamalo</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__item sidebar__item--dropdown">
+          <button class="sidebar__item-toggle">
+            <span class="sidebar__item-icon">🏆</span>
+            <span>Jefes Finales</span>
+            <span class="sidebar__item-arrow"></span>
+          </button>
+          <ul class="sidebar__submenu">
+            <li><a href="#" class="sidebar__subitem">Elder Dragons</a></li>
+            <li><a href="#" class="sidebar__subitem">Apex Monsters</a></li>
+            <li><a href="#" class="sidebar__subitem">Malzeno</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </aside>
+
+
+    <!-- ─── MAIN CONTENT ─── -->
+    <main class="main-content monster-page">
+
+
+      <!-- ══════════ HERO SECTION ══════════ -->
+      <section class="monster-hero">
+
+        <div class="monster-hero__left">
+          <div class="monster-hero__badges">
+            <span class="badge badge--type">Wyvern volador</span>
+            <span class="badge badge--threat">⚠ Amenaza Máxima</span>
+          </div>
+
+          <h1 class="monster-hero__name">Basarios</h1>
+          <p class="monster-hero__jp">バサリオス</p>
+
+          <div class="monster-hero__tags">
+            <span class="tag">🔴 Dragón</span>
+            <span class="tag">🖤 Sin elemento</span>
+            <span class="tag">🌍 Bosque Anciano</span>
+            <span class="tag">🌋 Tierra Chamuscada</span>
+          </div>
+
+          <p class="monster-hero__desc">
+            Un Dragón Anciano de piel densamente cubierta de púas negras y blancas que crecen y se endurecen con el tiempo.
+            Conocido como el "Dragón de la Ruina", Nergigante es una fuerza de destrucción sin parangón, capaz de regenerar
+            su coraza en segundos. Su único propósito es cazar y consumir a otros Dragones Ancianos para alimentar su insaciable
+            vitalidad. Los Vigilantes de la Comisión lo clasifican como una amenaza de categoría máxima.
+          </p>
+
+      
+        </div>
+
+        <div class="monster-hero__right">
+          <div class="monster-hero__img-frame">
+            <div class="monster-hero__img-glow"></div>
+            <img
+              src="../../img/monsters/basarios.png"
+              alt="Basarios"
+              class="monster-hero__img lb-trigger"
+            />
+            <div class="monster-hero__img-corner monster-hero__img-corner--tl"></div>
+            <div class="monster-hero__img-corner monster-hero__img-corner--tr"></div>
+            <div class="monster-hero__img-corner monster-hero__img-corner--bl"></div>
+            <div class="monster-hero__img-corner monster-hero__img-corner--br"></div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- DIVIDER -->
+      <div class="section-divider"><span>✦</span></div>
+
+      <!-- ══════════ STATS + WEAKNESSES ══════════ -->
+      <section class="two-col-section">
+
+        <!-- Debilidades elementales -->
+        <div class="panel">
+          <h2 class="panel__title"><span class="panel__title-icon">🎯</span> Debilidades</h2>
+          <div class="weakness-grid">
+
+            <div class="weakness-row">
+              <span class="weakness-row__label">🔥 Fuego</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:10%; --clr:#e05010"></div></div>
+              <span class="weakness-row__val">★☆☆</span>
+            </div>
+            <div class="weakness-row">
+              <span class="weakness-row__label">💧 Agua</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:20%; --clr:#2090d0"></div></div>
+              <span class="weakness-row__val">★☆☆</span>
+            </div>
+            <div class="weakness-row">
+              <span class="weakness-row__label">⚡ Rayo</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:30%; --clr:#d0c020"></div></div>
+              <span class="weakness-row__val">★★☆</span>
+            </div>
+            <div class="weakness-row">
+              <span class="weakness-row__label">❄ Hielo</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:15%; --clr:#80d0e8"></div></div>
+              <span class="weakness-row__val">★☆☆</span>
+            </div>
+            <div class="weakness-row weakness-row--highlight">
+              <span class="weakness-row__label">🔮 Dragón</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:75%; --clr:#c060e0"></div></div>
+              <span class="weakness-row__val">★★★</span>
+            </div>
+
+            <div class="weakness-section-title">Alteraciones de estado</div>
+
+            <div class="weakness-row">
+              <span class="weakness-row__label">☠ Veneno</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:0%; --clr:#60a040"></div></div>
+              <span class="weakness-row__val">✗</span>
+            </div>
+            <div class="weakness-row">
+              <span class="weakness-row__label">💤 Sueño</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:0%; --clr:#6080c0"></div></div>
+              <span class="weakness-row__val">✗</span>
+            </div>
+            <div class="weakness-row weakness-row--highlight">
+              <span class="weakness-row__label">💥 Explosión</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:60%; --clr:#e08020"></div></div>
+              <span class="weakness-row__val">★★★</span>
+            </div>
+            <div class="weakness-row">
+              <span class="weakness-row__label">🧊 Parálisis</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:0%; --clr:#40b0d0"></div></div>
+              <span class="weakness-row__val">✗</span>
+            </div>
+            <div class="weakness-row">
+              <span class="weakness-row__label">🌿 Miasma</span>
+              <div class="weakness-bar"><div class="weakness-bar__fill" style="--pct:0%; --clr:#80c040"></div></div>
+              <span class="weakness-row__val">✗</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Partes rompibles -->
+        <div class="panel">
+          <h2 class="panel__title"><span class="panel__title-icon">⚔</span> Partes Rompibles</h2>
+          <div class="breakparts">
+
+            <div class="breakpart">
+              <div class="breakpart__header">
+                <span class="breakpart__name">Cuerno</span>
+                <div class="breakpart__stars">
+                  <span class="star star--cut" title="Corte">C</span>
+                  <span class="star star--impact" title="Impacto">I</span>
+                  <span class="star star--shot" title="Disparo">D</span>
+                </div>
+              </div>
+              <div class="hzone-bars">
+                <div class="hzone-bar" style="--w:88%; --c:var(--c-red-glow)"><span>88</span></div>
+                <div class="hzone-bar" style="--w:65%; --c:var(--c-gold)"><span>65</span></div>
+                <div class="hzone-bar" style="--w:55%; --c:var(--c-gold-dim)"><span>55</span></div>
+              </div>
+              <span class="breakpart__note">Se rompe en fase de cólera</span>
+            </div>
+
+            <div class="breakpart">
+              <div class="breakpart__header">
+                <span class="breakpart__name">Cabeza</span>
+                <div class="breakpart__stars">
+                  <span class="star star--cut">C</span>
+                  <span class="star star--impact">I</span>
+                  <span class="star star--shot">D</span>
+                </div>
+              </div>
+              <div class="hzone-bars">
+                <div class="hzone-bar" style="--w:70%; --c:var(--c-red-glow)"><span>70</span></div>
+                <div class="hzone-bar" style="--w:70%; --c:var(--c-gold)"><span>70</span></div>
+                <div class="hzone-bar" style="--w:60%; --c:var(--c-gold-dim)"><span>60</span></div>
+              </div>
+            </div>
+
+            <div class="breakpart">
+              <div class="breakpart__header">
+                <span class="breakpart__name">Alas</span>
+                <div class="breakpart__stars">
+                  <span class="star star--cut">C</span>
+                  <span class="star star--impact">I</span>
+                  <span class="star star--shot">D</span>
+                </div>
+              </div>
+              <div class="hzone-bars">
+                <div class="hzone-bar" style="--w:60%; --c:var(--c-red-glow)"><span>60</span></div>
+                <div class="hzone-bar" style="--w:45%; --c:var(--c-gold)"><span>45</span></div>
+                <div class="hzone-bar" style="--w:50%; --c:var(--c-gold-dim)"><span>50</span></div>
+              </div>
+            </div>
+
+            <div class="breakpart">
+              <div class="breakpart__header">
+                <span class="breakpart__name">Cola</span>
+                <div class="breakpart__stars">
+                  <span class="star star--cut">C</span>
+                  <span class="star star--impact">I</span>
+                  <span class="star star--shot">D</span>
+                </div>
+              </div>
+              <div class="hzone-bars">
+                <div class="hzone-bar" style="--w:43%; --c:var(--c-red-glow)"><span>43</span></div>
+                <div class="hzone-bar" style="--w:40%; --c:var(--c-gold)"><span>40</span></div>
+                <div class="hzone-bar" style="--w:38%; --c:var(--c-gold-dim)"><span>38</span></div>
+              </div>
+              <span class="breakpart__note">Se puede cortar — obtén Espina de Cola</span>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- DIVIDER -->
+      <div class="section-divider"><span>✦</span></div>
+
+      <!-- ══════════ COMPORTAMIENTO Y ATAQUES ══════════ -->
+      <section class="full-section">
+        <h2 class="section-title">⚔ Comportamiento &amp; Ataques</h2>
+
+        <div class="behavior-intro">
+          <p>
+            Nergigante es un predador agresivo que ataca sin provocación. Sus púas crecen y se endurecen progresivamente durante
+            el combate; cuando están completamente negras, su siguiente embestida será devastadora. Romper sus espinas
+            regeneradas en blanco es clave para reducir su daño. En fase de cólera, sus ataques se vuelven considerablemente
+            más rápidos y letales, y su rugido puede derrumbar al cazador si no se esquiva.
+          </p>
+        </div>
+
+        <div class="attacks-grid">
+
+          <div class="attack-card">
+            <div class="attack-card__header">
+              <span class="attack-card__icon">💥</span>
+              <h3 class="attack-card__name">Embestida Diving</h3>
+              <span class="attack-card__danger attack-card__danger--lethal">LETAL</span>
+            </div>
+            <p class="attack-card__desc">
+              Se eleva y se lanza en picado aplastando el suelo con las garras. Si sus púas están completamente endurecidas,
+              el impacto genera una onda expansiva adicional. Puede matar de un golpe en rango alto sin suficiente defensa.
+            </p>
+            <div class="attack-card__tips">
+              <span class="tip-label">Consejo:</span> Esquiva en diagonal hacia un lateral justo cuando inicie la caída.
+              Nunca te quedes parado debajo de él.
+            </div>
+          </div>
+
+          <div class="attack-card">
+            <div class="attack-card__header">
+              <span class="attack-card__icon">🌀</span>
+              <h3 class="attack-card__name">Barrido de Cola</h3>
+              <span class="attack-card__danger attack-card__danger--high">ALTO</span>
+            </div>
+            <p class="attack-card__desc">
+              Gira sobre sí mismo usando la cola como arma. Cubre casi 360°. Frecuente cuando el cazador se sitúa detrás
+              de sus patas traseras.
+            </p>
+            <div class="attack-card__tips">
+              <span class="tip-label">Consejo:</span> Anticipa el giro y esquiva hacia delante, entre sus patas delanteras.
+            </div>
+          </div>
+
+          <div class="attack-card">
+            <div class="attack-card__header">
+              <span class="attack-card__icon">👊</span>
+              <h3 class="attack-card__name">Combo de Garras</h3>
+              <span class="attack-card__danger attack-card__danger--medium">MEDIO</span>
+            </div>
+            <p class="attack-card__desc">
+              Serie de hasta cuatro zarpazos alternos con ambas garras delanteras. En cólera añade un mordisco final
+              que puede aplicar daño de devastación.
+            </p>
+            <div class="attack-card__tips">
+              <span class="tip-label">Consejo:</span> Corre hacia su flanco o usa Manto de la Tormenta para aguantar el combo.
+            </div>
+          </div>
+
+          <div class="attack-card">
+            <div class="attack-card__header">
+              <span class="attack-card__icon">🌊</span>
+              <h3 class="attack-card__name">Carga Frontal</h3>
+              <span class="attack-card__danger attack-card__danger--high">ALTO</span>
+            </div>
+            <p class="attack-card__desc">
+              Carga a gran velocidad en línea recta aplastando todo lo que encuentre. Muy rápida en cólera; difícil de
+              reaccionar si no se anticipa.
+            </p>
+            <div class="attack-card__tips">
+              <span class="tip-label">Consejo:</span> Esquiva en perpendicular a su trayectoria. El movimiento lateral
+              es más seguro que retroceder.
+            </div>
+          </div>
+
+          <div class="attack-card">
+            <div class="attack-card__header">
+              <span class="attack-card__icon">🌪</span>
+              <h3 class="attack-card__name">Rugido de Cólera</h3>
+              <span class="attack-card__danger attack-card__danger--medium">MEDIO</span>
+            </div>
+            <p class="attack-card__desc">
+              Al entrar en fase de cólera emite un rugido de radio amplio. Sin joya de protección auditiva el cazador
+              queda paralizado y expuesto al siguiente ataque.
+            </p>
+            <div class="attack-card__tips">
+              <span class="tip-label">Consejo:</span> Lleva al menos Protección Auditiva Nv.1 o prepara una esquiva cronometrada.
+            </div>
+          </div>
+
+          <div class="attack-card">
+            <div class="attack-card__header">
+              <span class="attack-card__icon">🪨</span>
+              <h3 class="attack-card__name">Pisotón Sísmico</h3>
+              <span class="attack-card__danger attack-card__danger--low">BAJO</span>
+            </div>
+            <p class="attack-card__desc">
+              Golpea el suelo con ambas patas delanteras provocando un temblor local. Poco daño pero causa aturdimiento
+              del cazador si no se esquiva.
+            </p>
+            <div class="attack-card__tips">
+              <span class="tip-label">Consejo:</span> Mantente en movimiento constante cerca de sus patas; el huellazo es
+              telegráfico.
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- DIVIDER -->
+      <div class="section-divider"><span>✦</span></div>
+
+      <!-- ══════════ ESTRATEGIA DE CAZA ══════════ -->
+      <section class="full-section">
+        <h2 class="section-title">🗺 Estrategia de Caza</h2>
+
+        <div class="strategy-blocks">
+
+          <div class="strategy-block strategy-block--phase">
+            <div class="strategy-block__num">I</div>
+            <div class="strategy-block__content">
+              <h3>Fase Inicial — Púas Blancas</h3>
+              <p>
+                Al comienzo del combate las púas de Nergigante son blancas y frágiles. Concéntrate en el cuerno y la cabeza:
+                golpearlos mientras las púas están blandas las romperá, impidiendo que se endurezcan y reduciendo
+                drásticamente el daño de sus embestidas. Usa armas de alto daño en burst como la Espada y Escudo o la
+                Ballesta Pesada con munición perforante para maximizar el daño en partes.
+              </p>
+            </div>
+          </div>
+
+          <div class="strategy-block strategy-block--phase">
+            <div class="strategy-block__num">II</div>
+            <div class="strategy-block__content">
+              <h3>Fase Media — Endurecimiento</h3>
+              <p>
+                Cuando las púas se tornan negras el daño del siguiente ataque aumenta significativamente. Aprende a
+                reconocer el patrón: si ves las púas negras en cabeza y hombros, prepárate para la embestida Diving.
+                Mantén activo el Manto Evasión para esquivar con facilidad y usa bombas de barril grandes para romper
+                espinas endurecidas rápidamente.
+              </p>
+            </div>
+          </div>
+
+          <div class="strategy-block strategy-block--phase">
+            <div class="strategy-block__num">III</div>
+            <div class="strategy-block__content">
+              <h3>Fase Final — Cólera Permanente</h3>
+              <p>
+                En el último tercio de HP Nergigante entra en estado de ira semipermanente con velocidad y agresividad
+                máximas. Es el momento de usar tus Polvos de vida y el Manto de la Tormenta. Si tienes un equipo,
+                coordina los ataques aturdidores para mantenerlo en el suelo. Armas con elemento Dragón como la
+                <em>Escama del Dragón Antiguo</em> son óptimas en esta fase.
+              </p>
+            </div>
+          </div>
+
+          <div class="strategy-block strategy-block--tips">
+            <div class="strategy-block__num">💡</div>
+            <div class="strategy-block__content">
+              <h3>Consejos Generales</h3>
+              <ul class="tips-list">
+                <li>Lleva Protección Auditiva Nv.1 o superior para ignorar su rugido de cólera.</li>
+                <li>El Manto de Evasión es el más útil; sincronízalo con la embestida Diving.</li>
+                <li>Las armas con elemento Dragón son claramente superiores — prioriza ese árbol.</li>
+                <li>No te quedes detrás de él cuando las púas de cola sean negras.</li>
+                <li>Usa la Ballesta Ligera con munición Dragón para romper partes a distancia segura.</li>
+                <li>En Iceborne, su versión Ruinous tiene ataques adicionales con destellos negros: esquívalos con timing estricto.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- DIVIDER -->
+      <div class="section-divider"><span>✦</span></div>
+
+      <!-- ══════════ RECOMPENSAS ══════════ -->
+      <section class="full-section">
+        <h2 class="section-title">🎁 Recompensas</h2>
+
+        <div class="rewards-tabs" id="rewardsTabs">
+          <button class="rewards-tab rewards-tab--active" data-rank="hr">Rango Alto</button>
+          <button class="rewards-tab" data-rank="mr">Rango Maestro</button>
+        </div>
+
+        <div class="rewards-table-wrap">
+          <table class="rewards-table" id="rewardsTable">
+            <thead>
+              <tr>
+                <th>Material</th>
+                <th>Método</th>
+                <th>Cantidad</th>
+                <th>Probabilidad</th>
+              </tr>
+            </thead>
+            <tbody id="rewardsBody">
+              <!-- HR rows -->
+              <tr class="rewards-row" data-rank="hr">
+                <td><span class="mat-icon">🟠</span> Escama de Nergigante</td>
+                <td>Botín / Recompensa</td>
+                <td>1–2</td>
+                <td><div class="prob-bar" style="--p:70%"><span>70%</span></div></td>
+              </tr>
+              <tr class="rewards-row" data-rank="hr">
+                <td><span class="mat-icon">🔴</span> Garra de Nergigante</td>
+                <td>Botín / Romper Garra</td>
+                <td>1</td>
+                <td><div class="prob-bar" style="--p:45%"><span>45%</span></div></td>
+              </tr>
+              <tr class="rewards-row" data-rank="hr">
+                <td><span class="mat-icon">⚫</span> Espina de Nergigante</td>
+                <td>Botín / Romper Cuerno</td>
+                <td>1</td>
+                <td><div class="prob-bar" style="--p:38%"><span>38%</span></div></td>
+              </tr>
+              <tr class="rewards-row" data-rank="hr">
+                <td><span class="mat-icon">🟤</span> Caparazón de Nergigante</td>
+                <td>Botín</td>
+                <td>1</td>
+                <td><div class="prob-bar" style="--p:28%"><span>28%</span></div></td>
+              </tr>
+              <tr class="rewards-row" data-rank="hr">
+                <td><span class="mat-icon">🟡</span> Cola de Nergigante</td>
+                <td>Cortar Cola</td>
+                <td>1</td>
+                <td><div class="prob-bar" style="--p:100%"><span>100%</span></div></td>
+              </tr>
+              <tr class="rewards-row" data-rank="hr">
+                <td><span class="mat-icon">💎</span> Gema de Nergigante</td>
+                <td>Botín / Recompensa</td>
+                <td>1</td>
+                <td><div class="prob-bar" style="--p:3%"><span>3%</span></div></td>
+              </tr>
+              <!-- MR rows (hidden by default) -->
+              <tr class="rewards-row rewards-row--hidden" data-rank="mr">
+                <td><span class="mat-icon">🟠</span> Escama Ruinosa</td>
+                <td>Botín / Recompensa</td>
+                <td>1–3</td>
+                <td><div class="prob-bar" style="--p:75%"><span>75%</span></div></td>
+              </tr>
+              <tr class="rewards-row rewards-row--hidden" data-rank="mr">
+                <td><span class="mat-icon">🔴</span> Garra Ruinosa</td>
+                <td>Botín / Romper Garra</td>
+                <td>1–2</td>
+                <td><div class="prob-bar" style="--p:50%"><span>50%</span></div></td>
+              </tr>
+              <tr class="rewards-row rewards-row--hidden" data-rank="mr">
+                <td><span class="mat-icon">⚫</span> Espina Ruinosa</td>
+                <td>Botín / Romper Cuerno</td>
+                <td>1–2</td>
+                <td><div class="prob-bar" style="--p:42%"><span>42%</span></div></td>
+              </tr>
+              <tr class="rewards-row rewards-row--hidden" data-rank="mr">
+                <td><span class="mat-icon">🟤</span> Caparazón Ruinoso</td>
+                <td>Botín</td>
+                <td>1–2</td>
+                <td><div class="prob-bar" style="--p:30%"><span>30%</span></div></td>
+              </tr>
+              <tr class="rewards-row rewards-row--hidden" data-rank="mr">
+                <td><span class="mat-icon">🟡</span> Cola Ruinosa</td>
+                <td>Cortar Cola</td>
+                <td>1</td>
+                <td><div class="prob-bar" style="--p:100%"><span>100%</span></div></td>
+              </tr>
+              <tr class="rewards-row rewards-row--hidden" data-rank="mr">
+                <td><span class="mat-icon">💎</span> Gema Ruinosa+</td>
+                <td>Botín / Recompensa</td>
+                <td>1</td>
+                <td><div class="prob-bar" style="--p:5%"><span>5%</span></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- DIVIDER -->
+      <div class="section-divider"><span>✦</span></div>
+
+      <!-- ══════════ EQUIPO RECOMENDADO ══════════ -->
+      <section class="full-section">
+        <h2 class="section-title">🛡 Equipo Recomendado</h2>
+        <div class="gear-grid">
+
+          <div class="gear-card">
+            <div class="gear-card__icon">⚔</div>
+            <h3 class="gear-card__title">Arma Óptima</h3>
+            <p class="gear-card__text">Cualquier arma con <strong>Elemento Dragón</strong> es la elección principal.
+              La Ballesta Pesada con munición de Dragón o una Gran Espada de árbol Dragón hacen daño masivo
+              en el cuerno.</p>
+          </div>
+
+          <div class="gear-card">
+            <div class="gear-card__icon">🛡</div>
+            <h3 class="gear-card__title">Armadura</h3>
+            <p class="gear-card__text">Nergigante mismo proporciona excelente armadura. Para la caza busca piezas con
+              <strong>Protección Auditiva</strong> y <strong>Evasión Mejorada</strong>. El set de Bazel también es útil
+              por su Explosión.</p>
+          </div>
+
+          <div class="gear-card">
+            <div class="gear-card__icon">💎</div>
+            <h3 class="gear-card__title">Joyas Clave</h3>
+            <p class="gear-card__text"><strong>Joya de Protección</strong> (Protección Auditiva), <strong>Joya de
+              Evasión</strong> y <strong>Joya de Salud</strong> son las prioridades absolutas para sobrevivir
+              a sus combos.</p>
+          </div>
+
+          <div class="gear-card">
+            <div class="gear-card__icon">🧪</div>
+            <h3 class="gear-card__title">Consumibles</h3>
+            <p class="gear-card__text">Lleva <strong>Polvo de Vida, Megapócimas, Semillas de Huida</strong> y
+              <strong>Bombas de Barril Grandes</strong> para destruir espinas endurecidas y maximizar el daño
+              en ventanas de apertura.</p>
+          </div>
+
+          <div class="gear-card">
+            <div class="gear-card__icon">🧲</div>
+            <h3 class="gear-card__title">Mantos</h3>
+            <p class="gear-card__text">El <strong>Manto de Evasión</strong> es el más valioso. El <strong>Manto de
+              la Tormenta</strong> también es útil para aguantar su fase de cólera final sin recibir daño
+              crítico.</p>
+          </div>
+
+          <div class="gear-card">
+            <div class="gear-card__icon">🐾</div>
+            <h3 class="gear-card__title">Palicos</h3>
+            <p class="gear-card__text">Configura tu palico con el <strong>Cuerno de Batalla</strong> para buffs de
+              ataque o el <strong>Paralizador</strong> si llevas arma de gran daño burst. La habilidad
+              <em>Ataque Trampa</em> da ventanas extra.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- DIVIDER -->
+      <div class="section-divider"><span>✦</span></div>
+
+      <!-- ══════════ GALERÍA ══════════ -->
+      <section class="full-section">
+        <h2 class="section-title">📷 Galería</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-item--wide">
+            <img src="https://via.placeholder.com/800x450/180800/c8902a?text=Nergigante+en+combate" alt="Nergigante en combate" class="lb-trigger" />
+            <div class="gallery-item__caption">Nergigante en fase de cólera en la Tierra Chamuscada</div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://via.placeholder.com/400x300/0d0500/a87020?text=Espinas+negras" alt="Espinas negras" class="lb-trigger" />
+            <div class="gallery-item__caption">Púas completamente endurecidas</div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://via.placeholder.com/400x300/100400/906010?text=Embestida+Diving" alt="Embestida Diving" class="lb-trigger" />
+            <div class="gallery-item__caption">La devastadora embestida Diving</div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://via.placeholder.com/400x300/0e0600/806010?text=Cuerno+roto" alt="Cuerno roto" class="lb-trigger" />
+            <div class="gallery-item__caption">Cuerno tras ser roto exitosamente</div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://via.placeholder.com/400x300/120500/a06818?text=Ruinous+Nergigante" alt="Ruinous Nergigante" class="lb-trigger" />
+            <div class="gallery-item__caption">Nergigante Ruinoso — versión Iceborne</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIVIDER -->
+      <div class="section-divider"><span>✦</span></div>
+
+      <!-- ══════════ MONSTRUOS RELACIONADOS ══════════ -->
+      <section class="full-section">
+        <h2 class="section-title">🐉 Monstruos Relacionados</h2>
+        <div class="related-grid">
+          <a href="#" class="related-card">
+            <img src="https://via.placeholder.com/200x150/1a0a00/c8902a?text=Teostra" alt="Teostra" class="lb-trigger" />
+            <div class="related-card__info">
+              <span class="related-card__type">Elder Dragon</span>
+              <span class="related-card__name">Teostra</span>
+            </div>
+          </a>
+          <a href="#" class="related-card">
+            <img src="https://via.placeholder.com/200x150/000d1a/2a7cc8?text=Namielle" alt="Namielle" class="lb-trigger" />
+            <div class="related-card__info">
+              <span class="related-card__type">Elder Dragon</span>
+              <span class="related-card__name">Namielle</span>
+            </div>
+          </a>
+          <a href="#" class="related-card">
+            <img src="https://via.placeholder.com/200x150/0d1a00/4ec82a?text=Kushala" alt="Kushala Daora" class="lb-trigger" />
+            <div class="related-card__info">
+              <span class="related-card__type">Elder Dragon</span>
+              <span class="related-card__name">Kushala Daora</span>
+            </div>
+          </a>
+          <a href="#" class="related-card">
+            <img src="https://via.placeholder.com/200x150/1a001a/9b2ac8?text=Chameleos" alt="Chameleos" class="lb-trigger" />
+            <div class="related-card__info">
+              <span class="related-card__type">Elder Dragon</span>
+              <span class="related-card__name">Chameleos</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+    </main>
+  </div><!-- /.layout -->
+
+  <!-- ══════════ LIGHTBOX OVERLAY ══════════ -->
+  <div class="lb-overlay" id="lb-overlay" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <img id="lb-img" src="" alt="" />
+  </div>
+
+</body>
+</html>

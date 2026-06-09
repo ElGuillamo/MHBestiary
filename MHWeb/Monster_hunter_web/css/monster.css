@@ -204,7 +204,7 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 }
 
 .btn--ghost {
-  color: var(--c-text-secondary);
+  color: var(--c-text-primary);
   border: 1px solid var(--c-border);
   background: transparent;
 }
