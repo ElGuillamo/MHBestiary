@@ -1,0 +1,187 @@
+[
+  {
+    "title": "Bestiario",
+    "category": "Página",
+    "url": "html/landingpage.html"
+  },
+  {
+    "title": "Iniciar sesión",
+    "category": "Cuenta",
+    "url": "html/login.html"
+  },
+  {
+    "title": "Crear cuenta",
+    "category": "Cuenta",
+    "url": "html/register.html"
+  },
+  {
+    "title": "Anjanath",
+    "category": "Monstruo",
+    "url": "html/monsters/anjanath.html"
+  },
+  {
+    "title": "Brachydios",
+    "category": "Monstruo",
+    "url": "html/monsters/brachydios.html"
+  },
+  {
+    "title": "Barioth",
+    "category": "Monstruo",
+    "url": "html/monsters/barioth.html"
+  },
+  {
+    "title": "Chameleos",
+    "category": "Monstruo",
+    "url": "html/monsters/chameleos.html"
+  },
+  {
+    "title": "Diablos",
+    "category": "Monstruo",
+    "url": "html/monsters/diablos.html"
+  },
+  {
+    "title": "Glavenus",
+    "category": "Monstruo",
+    "url": "html/monsters/glavenus.html"
+  },
+  {
+    "title": "Kushala Daora",
+    "category": "Monstruo",
+    "url": "html/monsters/kushala-daora.html"
+  },
+  {
+    "title": "Lagiacrus",
+    "category": "Monstruo",
+    "url": "html/monsters/lagiacrus.html"
+  },
+  {
+    "title": "Namielle",
+    "category": "Monstruo",
+    "url": "html/monsters/namielle.html"
+  },
+  {
+    "title": "Nergigante",
+    "category": "Monstruo",
+    "url": "html/monsters/nergigante.html"
+  },
+  {
+    "title": "Rathalos",
+    "category": "Monstruo",
+    "url": "html/monsters/rathalos.html"
+  },
+  {
+    "title": "Teostra",
+    "category": "Monstruo",
+    "url": "html/monsters/teostra.html"
+  },
+  {
+    "title": "Tigrex",
+    "category": "Monstruo",
+    "url": "html/monsters/tigrex.html"
+  },
+  {
+    "title": "Velkhana",
+    "category": "Monstruo",
+    "url": "html/monsters/velkhana.html"
+  },
+  {
+    "title": "Zinogre",
+    "category": "Monstruo",
+    "url": "html/monsters/zinogre.html"
+  },
+  {
+    "title": "Wyverns Volador",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/wyverns-volador.html"
+  },
+  {
+    "title": "Wyverns Brutal",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/wyverns-brutal.html"
+  },
+  {
+    "title": "Dragones Ancianos",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/dragones-ancianos.html"
+  },
+  {
+    "title": "Bestias Colmillos",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/bestias-colmillos.html"
+  },
+  {
+    "title": "Leviatanes",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/leviatanes.html"
+  },
+  {
+    "title": "Gran Espada",
+    "category": "Arma",
+    "url": "html/armas/gran_espada.html"
+  },
+  {
+    "title": "Arco",
+    "category": "Arma",
+    "url": "html/armas/arco.html"
+  },
+  {
+    "title": "Espada Larga",
+    "category": "Arma",
+    "url": "html/armas/espada-larga.html"
+  },
+  {
+    "title": "Espada y Escudo",
+    "category": "Arma",
+    "url": "html/armas/espada-escudo.html"
+  },
+  {
+    "title": "Martillo",
+    "category": "Arma",
+    "url": "html/armas/martillo.html"
+  },
+  {
+    "title": "Lanza",
+    "category": "Arma",
+    "url": "html/armas/lanza.html"
+  },
+  {
+    "title": "Lanza Pistola",
+    "category": "Arma",
+    "url": "html/armas/lanza-pistola.html"
+  },
+  {
+    "title": "Hacha Espada",
+    "category": "Arma",
+    "url": "html/armas/hacha-espada.html"
+  },
+  {
+    "title": "Hacha Cargada",
+    "category": "Arma",
+    "url": "html/armas/hacha-cargada.html"
+  },
+  {
+    "title": "Glaive Insecto",
+    "category": "Arma",
+    "url": "html/armas/glaive-insecto.html"
+  },
+  {
+    "title": "Ballesta Ligera",
+    "category": "Arma",
+    "url": "html/armas/ballesta-ligera.html"
+  },
+  {
+    "title": "Ballesta Pesada",
+    "category": "Arma",
+    "url": "html/armas/ballesta-pesada.html"
+  },
+  {
+    "title": "Espadas Dobles",
+    "category": "Arma",
+    "url": "html/armas/espadas-dobles.html"
+  },
+  {
+    "title": "Cornamusa",
+    "category": "Arma",
+    "url": "html/armas/cornamusa.html"
+  }
+]
