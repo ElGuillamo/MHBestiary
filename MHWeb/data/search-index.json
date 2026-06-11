@@ -15,14 +15,84 @@
     "url": "html/register.html"
   },
   {
+    "title": "Agnaktor",
+    "category": "Monstruo",
+    "url": "html/monsters/agnaktor.html"
+  },
+  {
+    "title": "Ahtal-Ka",
+    "category": "Monstruo",
+    "url": "html/monsters/ahtal_ka.html"
+  },
+  {
+    "title": "Ajarakan",
+    "category": "Monstruo",
+    "url": "html/monsters/ajarakan.html"
+  },
+  {
+    "title": "Akantor",
+    "category": "Monstruo",
+    "url": "html/monsters/akantor.html"
+  },
+  {
+    "title": "Aknosom",
+    "category": "Monstruo",
+    "url": "html/monsters/aknosom.html"
+  },
+  {
+    "title": "Alatreon",
+    "category": "Monstruo",
+    "url": "html/monsters/alatreon.html"
+  },
+  {
+    "title": "Almudrón",
+    "category": "Monstruo",
+    "url": "html/monsters/almudrón.html"
+  },
+  {
+    "title": "Amatsu",
+    "category": "Monstruo",
+    "url": "html/monsters/amatsu.html"
+  },
+  {
+    "title": "Anjanath Fulgúreo Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/anj_fulg_g.html"
+  },
+  {
     "title": "Anjanath",
     "category": "Monstruo",
     "url": "html/monsters/anjanath.html"
   },
   {
-    "title": "Brachydios",
+    "title": "Arkveld",
     "category": "Monstruo",
-    "url": "html/monsters/brachydios.html"
+    "url": "html/monsters/arkveld.html"
+  },
+  {
+    "title": "Arkveld Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/arkveld_g.html"
+  },
+  {
+    "title": "Arzuros",
+    "category": "Monstruo",
+    "url": "html/monsters/arzuros.html"
+  },
+  {
+    "title": "Astalos",
+    "category": "Monstruo",
+    "url": "html/monsters/astalos.html"
+  },
+  {
+    "title": "Balahara",
+    "category": "Monstruo",
+    "url": "html/monsters/balahara.html"
+  },
+  {
+    "title": "Banbaro",
+    "category": "Monstruo",
+    "url": "html/monsters/banbaro.html"
   },
   {
     "title": "Barioth",
@@ -30,9 +100,84 @@
     "url": "html/monsters/barioth.html"
   },
   {
+    "title": "Barroth",
+    "category": "Monstruo",
+    "url": "html/monsters/barroth.html"
+  },
+  {
+    "title": "Basarios",
+    "category": "Monstruo",
+    "url": "html/monsters/basarios.html"
+  },
+  {
+    "title": "Bazelgeuse",
+    "category": "Monstruo",
+    "url": "html/monsters/bazelgeuse.html"
+  },
+  {
+    "title": "Beotodus",
+    "category": "Monstruo",
+    "url": "html/monsters/beotodus.html"
+  },
+  {
+    "title": "Bishaten",
+    "category": "Monstruo",
+    "url": "html/monsters/bishaten.html"
+  },
+  {
+    "title": "Blangonga",
+    "category": "Monstruo",
+    "url": "html/monsters/blangonga.html"
+  },
+  {
+    "title": "Brachydios",
+    "category": "Monstruo",
+    "url": "html/monsters/brachydios.html"
+  },
+  {
+    "title": "Bulldrome",
+    "category": "Monstruo",
+    "url": "html/monsters/bulldrome.html"
+  },
+  {
+    "title": "Ceadeus",
+    "category": "Monstruo",
+    "url": "html/monsters/ceadeus.html"
+  },
+  {
+    "title": "Cephadrome",
+    "category": "Monstruo",
+    "url": "html/monsters/cephadrome.html"
+  },
+  {
     "title": "Chameleos",
     "category": "Monstruo",
     "url": "html/monsters/chameleos.html"
+  },
+  {
+    "title": "Chatacabra",
+    "category": "Monstruo",
+    "url": "html/monsters/chatacabra.html"
+  },
+  {
+    "title": "Congalala",
+    "category": "Monstruo",
+    "url": "html/monsters/congalala.html"
+  },
+  {
+    "title": "Daimyo Hermitaur",
+    "category": "Monstruo",
+    "url": "html/monsters/daimyo.html"
+  },
+  {
+    "title": "Dalamadur",
+    "category": "Monstruo",
+    "url": "html/monsters/dalamadur.html"
+  },
+  {
+    "title": "Deviljho",
+    "category": "Monstruo",
+    "url": "html/monsters/deviljho.html"
   },
   {
     "title": "Diablos",
@@ -40,14 +185,189 @@
     "url": "html/monsters/diablos.html"
   },
   {
+    "title": "Dodogama",
+    "category": "Monstruo",
+    "url": "html/monsters/dodogama.html"
+  },
+  {
+    "title": "Doshaguma",
+    "category": "Monstruo",
+    "url": "html/monsters/doshaguma.html"
+  },
+  {
+    "title": "Doshaguma Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/doshaguma_g.html"
+  },
+  {
+    "title": "Duramboros",
+    "category": "Monstruo",
+    "url": "html/monsters/duramboros.html"
+  },
+  {
+    "title": "Espinas",
+    "category": "Monstruo",
+    "url": "html/monsters/espinas.html"
+  },
+  {
+    "title": "Fatalis",
+    "category": "Monstruo",
+    "url": "html/monsters/fatalis.html"
+  },
+  {
+    "title": "Gammoth",
+    "category": "Monstruo",
+    "url": "html/monsters/gammoth.html"
+  },
+  {
+    "title": "Garangolm",
+    "category": "Monstruo",
+    "url": "html/monsters/garangolm.html"
+  },
+  {
+    "title": "Gendrome",
+    "category": "Monstruo",
+    "url": "html/monsters/gendrome.html"
+  },
+  {
+    "title": "Giadrome",
+    "category": "Monstruo",
+    "url": "html/monsters/giadrome.html"
+  },
+  {
+    "title": "Gigginox",
+    "category": "Monstruo",
+    "url": "html/monsters/gigginox.html"
+  },
+  {
     "title": "Glavenus",
     "category": "Monstruo",
     "url": "html/monsters/glavenus.html"
   },
   {
+    "title": "Gobul",
+    "category": "Monstruo",
+    "url": "html/monsters/gobul.html"
+  },
+  {
+    "title": "Gogmazios",
+    "category": "Monstruo",
+    "url": "html/monsters/gogmazios.html"
+  },
+  {
+    "title": "Gore Magala",
+    "category": "Monstruo",
+    "url": "html/monsters/gore_magala.html"
+  },
+  {
+    "title": "Gran Baggi",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_baggi.html"
+  },
+  {
+    "title": "Gran Girros",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_girros.html"
+  },
+  {
+    "title": "Gran Izuchi",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_izuchi.html"
+  },
+  {
+    "title": "Gran Jaggi",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_jaggi.html"
+  },
+  {
+    "title": "Gran Jagras",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_jagras.html"
+  },
+  {
+    "title": "Gran Maccao",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_maccao.html"
+  },
+  {
+    "title": "Gran Wroggi",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_wroggi.html"
+  },
+  {
+    "title": "Gravios",
+    "category": "Monstruo",
+    "url": "html/monsters/gravios.html"
+  },
+  {
+    "title": "Gypceros",
+    "category": "Monstruo",
+    "url": "html/monsters/gypceros.html"
+  },
+  {
+    "title": "Goss Harag",
+    "category": "Monstruo",
+    "url": "html/monsters/harag.html"
+  },
+  {
+    "title": "Vaal Hazak",
+    "category": "Monstruo",
+    "url": "html/monsters/hazak.html"
+  },
+  {
+    "title": "Hirabami",
+    "category": "Monstruo",
+    "url": "html/monsters/hirabami.html"
+  },
+  {
+    "title": "Iodrome",
+    "category": "Monstruo",
+    "url": "html/monsters/iodrome.html"
+  },
+  {
+    "title": "Jin Dahaad",
+    "category": "Monstruo",
+    "url": "html/monsters/jin_dahaad.html"
+  },
+  {
+    "title": "Jyuratodus",
+    "category": "Monstruo",
+    "url": "html/monsters/jyuratodus.html"
+  },
+  {
+    "title": "Rakna Kadaki",
+    "category": "Monstruo",
+    "url": "html/monsters/kadaki.html"
+  },
+  {
+    "title": "Rakna Kadaki Pira",
+    "category": "Monstruo",
+    "url": "html/monsters/kadaki_pira.html"
+  },
+  {
+    "title": "Kecha Wacha",
+    "category": "Monstruo",
+    "url": "html/monsters/kecha.html"
+  },
+  {
+    "title": "Khezu",
+    "category": "Monstruo",
+    "url": "html/monsters/khezu.html"
+  },
+  {
+    "title": "Kirin",
+    "category": "Monstruo",
+    "url": "html/monsters/kirin.html"
+  },
+  {
+    "title": "Kulu-Ya-Ku",
+    "category": "Monstruo",
+    "url": "html/monsters/kulu_ya_ku.html"
+  },
+  {
     "title": "Kushala Daora",
     "category": "Monstruo",
-    "url": "html/monsters/kushala-daora.html"
+    "url": "html/monsters/kushala.html"
   },
   {
     "title": "Lagiacrus",
@@ -55,9 +375,124 @@
     "url": "html/monsters/lagiacrus.html"
   },
   {
+    "title": "Lagombi",
+    "category": "Monstruo",
+    "url": "html/monsters/lagombi.html"
+  },
+  {
+    "title": "Lala Barina",
+    "category": "Monstruo",
+    "url": "html/monsters/lala_barina.html"
+  },
+  {
+    "title": "Lao Shen Lung",
+    "category": "Monstruo",
+    "url": "html/monsters/lao.html"
+  },
+  {
+    "title": "Lavasioth",
+    "category": "Monstruo",
+    "url": "html/monsters/lavasioth.html"
+  },
+  {
+    "title": "Laviente",
+    "category": "Monstruo",
+    "url": "html/monsters/laviente.html"
+  },
+  {
+    "title": "Laviente Berserker",
+    "category": "Monstruo",
+    "url": "html/monsters/laviente_berserker.html"
+  },
+  {
+    "title": "Laviente Violento",
+    "category": "Monstruo",
+    "url": "html/monsters/laviente_violento.html"
+  },
+  {
+    "title": "Legiana",
+    "category": "Monstruo",
+    "url": "html/monsters/legiana.html"
+  },
+  {
+    "title": "Leshen",
+    "category": "Monstruo",
+    "url": "html/monsters/leshen.html"
+  },
+  {
+    "title": "Leshen Antiguo",
+    "category": "Monstruo",
+    "url": "html/monsters/leshen_antiguo.html"
+  },
+  {
+    "title": "Ludroth Real",
+    "category": "Monstruo",
+    "url": "html/monsters/ludroth_real.html"
+  },
+  {
+    "title": "Lunagaron",
+    "category": "Monstruo",
+    "url": "html/monsters/lunagaron.html"
+  },
+  {
+    "title": "Magnamalo",
+    "category": "Monstruo",
+    "url": "html/monsters/magnamalo.html"
+  },
+  {
+    "title": "Malfestio",
+    "category": "Monstruo",
+    "url": "html/monsters/malfestio.html"
+  },
+  {
+    "title": "Malzeno",
+    "category": "Monstruo",
+    "url": "html/monsters/malzeno.html"
+  },
+  {
+    "title": "Miralis Funesto",
+    "category": "Monstruo",
+    "url": "html/monsters/miralis.html"
+  },
+  {
+    "title": "Mizutsune",
+    "category": "Monstruo",
+    "url": "html/monsters/mizutsune.html"
+  },
+  {
+    "title": "Dah'ren Mohran",
+    "category": "Monstruo",
+    "url": "html/monsters/mohran.html"
+  },
+  {
+    "title": "Monoblos",
+    "category": "Monstruo",
+    "url": "html/monsters/monoblos.html"
+  },
+  {
+    "title": "Najarala",
+    "category": "Monstruo",
+    "url": "html/monsters/najarala.html"
+  },
+  {
+    "title": "Najarala Abisal",
+    "category": "Monstruo",
+    "url": "html/monsters/najarala_abisal.html"
+  },
+  {
+    "title": "Nakarkos",
+    "category": "Monstruo",
+    "url": "html/monsters/nakarkos.html"
+  },
+  {
     "title": "Namielle",
     "category": "Monstruo",
     "url": "html/monsters/namielle.html"
+  },
+  {
+    "title": "Nargacuga",
+    "category": "Monstruo",
+    "url": "html/monsters/nargacuga.html"
   },
   {
     "title": "Nergigante",
@@ -65,9 +500,134 @@
     "url": "html/monsters/nergigante.html"
   },
   {
+    "title": "Nerscylla",
+    "category": "Monstruo",
+    "url": "html/monsters/nerscylla.html"
+  },
+  {
+    "title": "Nerscylla Sombrío",
+    "category": "Monstruo",
+    "url": "html/monsters/nerscylla_sombrío.html"
+  },
+  {
+    "title": "Nibelsnarf",
+    "category": "Monstruo",
+    "url": "html/monsters/nibelsnarf.html"
+  },
+  {
+    "title": "Nu Udra",
+    "category": "Monstruo",
+    "url": "html/monsters/nu_udra.html"
+  },
+  {
+    "title": "Odogaron Ébano Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/od_éb_g.html"
+  },
+  {
+    "title": "Odogaron",
+    "category": "Monstruo",
+    "url": "html/monsters/odogaron.html"
+  },
+  {
+    "title": "Paolumu",
+    "category": "Monstruo",
+    "url": "html/monsters/paolumu.html"
+  },
+  {
+    "title": "Plesioth",
+    "category": "Monstruo",
+    "url": "html/monsters/plesioth.html"
+  },
+  {
+    "title": "Pukei Pukei",
+    "category": "Monstruo",
+    "url": "html/monsters/pukei.html"
+  },
+  {
+    "title": "Quematrice",
+    "category": "Monstruo",
+    "url": "html/monsters/quematrice.html"
+  },
+  {
+    "title": "Qurupeco",
+    "category": "Monstruo",
+    "url": "html/monsters/qurupeco.html"
+  },
+  {
+    "title": "Radobaan",
+    "category": "Monstruo",
+    "url": "html/monsters/radobaan.html"
+  },
+  {
+    "title": "Rajang",
+    "category": "Monstruo",
+    "url": "html/monsters/rajang.html"
+  },
+  {
     "title": "Rathalos",
     "category": "Monstruo",
     "url": "html/monsters/rathalos.html"
+  },
+  {
+    "title": "Rathalos Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/rathalos_g.html"
+  },
+  {
+    "title": "Rathian",
+    "category": "Monstruo",
+    "url": "html/monsters/rathian.html"
+  },
+  {
+    "title": "Rey Dau",
+    "category": "Monstruo",
+    "url": "html/monsters/rey_dau.html"
+  },
+  {
+    "title": "Rompopolo",
+    "category": "Monstruo",
+    "url": "html/monsters/rompopolo.html"
+  },
+  {
+    "title": "Seltas",
+    "category": "Monstruo",
+    "url": "html/monsters/seltas.html"
+  },
+  {
+    "title": "Seltas Reina",
+    "category": "Monstruo",
+    "url": "html/monsters/seltas_reina.html"
+  },
+  {
+    "title": "Seregios",
+    "category": "Monstruo",
+    "url": "html/monsters/seregios.html"
+  },
+  {
+    "title": "Shagaru Magala",
+    "category": "Monstruo",
+    "url": "html/monsters/shagaru.html"
+  },
+  {
+    "title": "Shen Gaoren",
+    "category": "Monstruo",
+    "url": "html/monsters/shen_gaoren.html"
+  },
+  {
+    "title": "Zoh Shia",
+    "category": "Monstruo",
+    "url": "html/monsters/shia.html"
+  },
+  {
+    "title": "Shogun Ceanataur",
+    "category": "Monstruo",
+    "url": "html/monsters/shogun.html"
+  },
+  {
+    "title": "Somnacanth",
+    "category": "Monstruo",
+    "url": "html/monsters/somnacanth.html"
   },
   {
     "title": "Teostra",
@@ -75,9 +635,49 @@
     "url": "html/monsters/teostra.html"
   },
   {
+    "title": "Tetranadon",
+    "category": "Monstruo",
+    "url": "html/monsters/tetranadon.html"
+  },
+  {
+    "title": "Tetsucabra",
+    "category": "Monstruo",
+    "url": "html/monsters/tetsucabra.html"
+  },
+  {
     "title": "Tigrex",
     "category": "Monstruo",
     "url": "html/monsters/tigrex.html"
+  },
+  {
+    "title": "Tobi Kadachi",
+    "category": "Monstruo",
+    "url": "html/monsters/tobi_kadachi.html"
+  },
+  {
+    "title": "Tzitzi-Ya-Ku",
+    "category": "Monstruo",
+    "url": "html/monsters/tzitzi_ya_ku.html"
+  },
+  {
+    "title": "Ukanlos",
+    "category": "Monstruo",
+    "url": "html/monsters/ukanlos.html"
+  },
+  {
+    "title": "Uragaan",
+    "category": "Monstruo",
+    "url": "html/monsters/uragaan.html"
+  },
+  {
+    "title": "Uth Duna",
+    "category": "Monstruo",
+    "url": "html/monsters/uth_duna.html"
+  },
+  {
+    "title": "Valstrax",
+    "category": "Monstruo",
+    "url": "html/monsters/valstrax.html"
   },
   {
     "title": "Velkhana",
@@ -85,39 +685,39 @@
     "url": "html/monsters/velkhana.html"
   },
   {
+    "title": "Velocidrome",
+    "category": "Monstruo",
+    "url": "html/monsters/velocidrome.html"
+  },
+  {
+    "title": "Volvidon",
+    "category": "Monstruo",
+    "url": "html/monsters/volvidon.html"
+  },
+  {
+    "title": "Xu Wu",
+    "category": "Monstruo",
+    "url": "html/monsters/xu_wu.html"
+  },
+  {
+    "title": "Yian Garuga",
+    "category": "Monstruo",
+    "url": "html/monsters/yian_garuga.html"
+  },
+  {
+    "title": "Yian Kut Ku",
+    "category": "Monstruo",
+    "url": "html/monsters/yian_kut_ku.html"
+  },
+  {
+    "title": "Zamtrios",
+    "category": "Monstruo",
+    "url": "html/monsters/zamtrios.html"
+  },
+  {
     "title": "Zinogre",
     "category": "Monstruo",
     "url": "html/monsters/zinogre.html"
-  },
-  {
-    "title": "Wyverns Volador",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/wyverns-volador.html"
-  },
-  {
-    "title": "Wyverns Brutal",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/wyverns-brutal.html"
-  },
-  {
-    "title": "Dragones Ancianos",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/dragones-ancianos.html"
-  },
-  {
-    "title": "Bestias Colmillos",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/bestias-colmillos.html"
-  },
-  {
-    "title": "Leviatanes",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/leviatanes.html"
-  },
-  {
-    "title": "Gran Espada",
-    "category": "Arma",
-    "url": "html/armas/gran_espada.html"
   },
   {
     "title": "Arco",
@@ -125,19 +725,54 @@
     "url": "html/armas/arco.html"
   },
   {
-    "title": "Espada Larga",
+    "title": "Ballesta Ligera",
     "category": "Arma",
-    "url": "html/armas/espada-larga.html"
+    "url": "html/armas/ballesta_ligera.html"
+  },
+  {
+    "title": "Ballesta Pesada",
+    "category": "Arma",
+    "url": "html/armas/ballesta_pesada.html"
+  },
+  {
+    "title": "Cornamusa",
+    "category": "Arma",
+    "url": "html/armas/cornamusa.html"
   },
   {
     "title": "Espada y Escudo",
     "category": "Arma",
-    "url": "html/armas/espada-escudo.html"
+    "url": "html/armas/espada_escudo.html"
   },
   {
-    "title": "Martillo",
+    "title": "Espada larga",
     "category": "Arma",
-    "url": "html/armas/martillo.html"
+    "url": "html/armas/espada_larga.html"
+  },
+  {
+    "title": "Espadas Dobles",
+    "category": "Arma",
+    "url": "html/armas/espadas_dobles.html"
+  },
+  {
+    "title": "Glaive insecto",
+    "category": "Arma",
+    "url": "html/armas/glaive_insecto.html"
+  },
+  {
+    "title": "Gran espada",
+    "category": "Arma",
+    "url": "html/armas/gran_espada.html"
+  },
+  {
+    "title": "Hacha Cargada",
+    "category": "Arma",
+    "url": "html/armas/hacha_cargada.html"
+  },
+  {
+    "title": "Hacha espada",
+    "category": "Arma",
+    "url": "html/armas/hacha_espada.html"
   },
   {
     "title": "Lanza",
@@ -147,41 +782,11 @@
   {
     "title": "Lanza Pistola",
     "category": "Arma",
-    "url": "html/armas/lanza-pistola.html"
+    "url": "html/armas/lanza_pistola.html"
   },
   {
-    "title": "Hacha Espada",
+    "title": "Martillo",
     "category": "Arma",
-    "url": "html/armas/hacha-espada.html"
-  },
-  {
-    "title": "Hacha Cargada",
-    "category": "Arma",
-    "url": "html/armas/hacha-cargada.html"
-  },
-  {
-    "title": "Glaive Insecto",
-    "category": "Arma",
-    "url": "html/armas/glaive-insecto.html"
-  },
-  {
-    "title": "Ballesta Ligera",
-    "category": "Arma",
-    "url": "html/armas/ballesta-ligera.html"
-  },
-  {
-    "title": "Ballesta Pesada",
-    "category": "Arma",
-    "url": "html/armas/ballesta-pesada.html"
-  },
-  {
-    "title": "Espadas Dobles",
-    "category": "Arma",
-    "url": "html/armas/espadas-dobles.html"
-  },
-  {
-    "title": "Cornamusa",
-    "category": "Arma",
-    "url": "html/armas/cornamusa.html"
+    "url": "html/armas/martillo.html"
   }
 ]
