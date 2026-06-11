@@ -1,0 +1,286 @@
+[
+  {
+    "title": "Bestiario",
+    "category": "Página",
+    "url": "html/landingpage.html",
+    "keywords": ["bestiario", "inicio", "home", "monstruos", "lista"]
+  },
+  {
+    "title": "Iniciar sesión",
+    "category": "Cuenta",
+    "url": "html/login.html",
+    "keywords": ["login", "sesión", "entrar", "acceder", "cuenta"]
+  },
+  {
+    "title": "Crear cuenta",
+    "category": "Cuenta",
+    "url": "html/register.html",
+    "keywords": ["registro", "registrar", "crear", "cuenta", "nueva"]
+  },
+
+  {
+    "title": "Anjanath",
+    "category": "Monstruo",
+    "type": "Wyvern Bruto",
+    "element": "Fuego",
+    "weakness": ["Agua", "Trueno"],
+    "url": "html/monsters/anjanath.html",
+    "keywords": ["anjanath", "wyvern", "bruto", "fuego", "dinosaurio"]
+  },
+  {
+    "title": "Brachydios",
+    "category": "Monstruo",
+    "type": "Wyvern Bruto",
+    "element": "Explosión",
+    "weakness": ["Hielo", "Agua"],
+    "url": "html/monsters/brachydios.html",
+    "keywords": ["brachydios", "wyvern", "bruto", "explosion", "slime", "verde"]
+  },
+  {
+    "title": "Barioth",
+    "category": "Monstruo",
+    "type": "Wyvern Volador",
+    "element": "Hielo",
+    "weakness": ["Fuego", "Trueno"],
+    "url": "html/monsters/barioth.html",
+    "keywords": ["barioth", "wyvern", "volador", "hielo", "colmillos", "nieve"]
+  },
+  {
+    "title": "Chameleos",
+    "category": "Monstruo",
+    "type": "Dragón Anciano",
+    "element": "Veneno",
+    "weakness": ["Fuego", "Trueno"],
+    "url": "html/monsters/chameleos.html",
+    "keywords": ["chameleos", "dragon", "anciano", "veneno", "camaleón", "invisible"]
+  },
+  {
+    "title": "Diablos",
+    "category": "Monstruo",
+    "type": "Wyvern Bruto",
+    "element": null,
+    "weakness": ["Hielo", "Agua"],
+    "url": "html/monsters/diablos.html",
+    "keywords": ["diablos", "wyvern", "bruto", "cuernos", "desierto"]
+  },
+  {
+    "title": "Glavenus",
+    "category": "Monstruo",
+    "type": "Wyvern Bruto",
+    "element": "Fuego",
+    "weakness": ["Agua", "Dragón"],
+    "url": "html/monsters/glavenus.html",
+    "keywords": ["glavenus", "wyvern", "bruto", "fuego", "cola", "espada"]
+  },
+  {
+    "title": "Kushala Daora",
+    "category": "Monstruo",
+    "type": "Dragón Anciano",
+    "element": "Viento",
+    "weakness": ["Trueno", "Dragón"],
+    "url": "html/monsters/kushala-daora.html",
+    "keywords": ["kushala", "daora", "dragon", "anciano", "viento", "acero", "metal"]
+  },
+  {
+    "title": "Lagiacrus",
+    "category": "Monstruo",
+    "type": "Leviatán",
+    "element": "Trueno",
+    "weakness": ["Fuego", "Hielo"],
+    "url": "html/monsters/lagiacrus.html",
+    "keywords": ["lagiacrus", "leviatan", "trueno", "agua", "serpiente"]
+  },
+  {
+    "title": "Namielle",
+    "category": "Monstruo",
+    "type": "Dragón Anciano",
+    "element": "Agua",
+    "weakness": ["Fuego", "Trueno"],
+    "url": "html/monsters/namielle.html",
+    "keywords": ["namielle", "dragon", "anciano", "agua", "rayo", "medusa"]
+  },
+  {
+    "title": "Nergigante",
+    "category": "Monstruo",
+    "type": "Dragón Anciano",
+    "element": null,
+    "weakness": ["Trueno", "Dragón"],
+    "url": "html/monsters/nergigante.html",
+    "keywords": ["nergigante", "dragon", "anciano", "puas", "espinas", "final"]
+  },
+  {
+    "title": "Rathalos",
+    "category": "Monstruo",
+    "type": "Wyvern Volador",
+    "element": "Fuego",
+    "weakness": ["Dragón", "Trueno"],
+    "url": "html/monsters/rathalos.html",
+    "keywords": ["rathalos", "wyvern", "volador", "fuego", "rey", "cielo", "rojo"]
+  },
+  {
+    "title": "Teostra",
+    "category": "Monstruo",
+    "type": "Dragón Anciano",
+    "element": "Fuego",
+    "weakness": ["Agua", "Trueno"],
+    "url": "html/monsters/teostra.html",
+    "keywords": ["teostra", "dragon", "anciano", "fuego", "explosion", "leon"]
+  },
+  {
+    "title": "Tigrex",
+    "category": "Monstruo",
+    "type": "Wyvern Volador",
+    "element": null,
+    "weakness": ["Trueno", "Dragón"],
+    "url": "html/monsters/tigrex.html",
+    "keywords": ["tigrex", "wyvern", "volador", "rugido", "antiguo"]
+  },
+  {
+    "title": "Velkhana",
+    "category": "Monstruo",
+    "type": "Dragón Anciano",
+    "element": "Hielo",
+    "weakness": ["Fuego", "Dragón"],
+    "url": "html/monsters/velkhana.html",
+    "keywords": ["velkhana", "dragon", "anciano", "hielo", "cristal", "blanco"]
+  },
+  {
+    "title": "Zinogre",
+    "category": "Monstruo",
+    "type": "Bestia de Colmillos",
+    "element": "Trueno",
+    "weakness": ["Hielo", "Agua"],
+    "url": "html/monsters/zinogre.html",
+    "keywords": ["zinogre", "bestia", "colmillos", "trueno", "lobo", "rayo"]
+  },
+
+  {
+    "title": "Wyverns Volador",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/wyverns-volador.html",
+    "keywords": ["wyvern", "volador", "volar", "categoria", "tipo"]
+  },
+  {
+    "title": "Wyverns Brutal",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/wyverns-brutal.html",
+    "keywords": ["wyvern", "brutal", "bruto", "categoria", "tipo"]
+  },
+  {
+    "title": "Dragones Ancianos",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/dragones-ancianos.html",
+    "keywords": ["dragon", "anciano", "elder", "categoria", "tipo"]
+  },
+  {
+    "title": "Bestias Colmillos",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/bestias-colmillos.html",
+    "keywords": ["bestia", "colmillos", "fanged", "categoria", "tipo"]
+  },
+  {
+    "title": "Leviatanes",
+    "category": "Categoría",
+    "url": "html/monsters/categorias/leviatanes.html",
+    "keywords": ["leviatan", "agua", "serpiente", "categoria", "tipo"]
+  },
+
+  {
+    "title": "Gran Espada",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/gran_espada.html",
+    "keywords": ["gran", "espada", "greatsword", "lenta", "poderosa", "carga"]
+  },
+  {
+    "title": "Arco",
+    "category": "Arma",
+    "weaponType": "A distancia",
+    "url": "html/armas/arco.html",
+    "keywords": ["arco", "bow", "flechas", "distancia", "disparo"]
+  },
+  {
+    "title": "Espada Larga",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/espada-larga.html",
+    "keywords": ["espada", "larga", "longsword", "espiritu", "contador"]
+  },
+  {
+    "title": "Espada y Escudo",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/espada-escudo.html",
+    "keywords": ["espada", "escudo", "sword", "shield", "agil", "rápido"]
+  },
+  {
+    "title": "Martillo",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/martillo.html",
+    "keywords": ["martillo", "hammer", "cabeza", "romper", "aturdir"]
+  },
+  {
+    "title": "Lanza",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/lanza.html",
+    "keywords": ["lanza", "lance", "escudo", "defensa", "empuje"]
+  },
+  {
+    "title": "Lanza Pistola",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/lanza-pistola.html",
+    "keywords": ["lanza", "pistola", "gunlance", "explosión", "disparo"]
+  },
+  {
+    "title": "Hacha Espada",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/hacha-espada.html",
+    "keywords": ["hacha", "espada", "switch", "axe", "transformar", "modo"]
+  },
+  {
+    "title": "Hacha Cargada",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/hacha-cargada.html",
+    "keywords": ["hacha", "cargada", "charge", "blade", "escudo", "phial"]
+  },
+  {
+    "title": "Glaive Insecto",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/glaive-insecto.html",
+    "keywords": ["glaive", "insecto", "kinsect", "saltar", "volar", "esencia"]
+  },
+  {
+    "title": "Ballesta Ligera",
+    "category": "Arma",
+    "weaponType": "A distancia",
+    "url": "html/armas/ballesta-ligera.html",
+    "keywords": ["ballesta", "ligera", "light", "bowgun", "rápido", "disparo"]
+  },
+  {
+    "title": "Ballesta Pesada",
+    "category": "Arma",
+    "weaponType": "A distancia",
+    "url": "html/armas/ballesta-pesada.html",
+    "keywords": ["ballesta", "pesada", "heavy", "bowgun", "potente", "disparo"]
+  },
+  {
+    "title": "Espadas Dobles",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/espadas-dobles.html",
+    "keywords": ["espadas", "dobles", "dual", "blades", "rápido", "elemento"]
+  },
+  {
+    "title": "Cornamusa",
+    "category": "Arma",
+    "weaponType": "Cuerpo a cuerpo",
+    "url": "html/armas/cornamusa.html",
+    "keywords": ["cornamusa", "hunting", "horn", "música", "melodías", "buffs"]
+  }
+]

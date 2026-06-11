@@ -1,61 +1,141 @@
 // ── chat-widget.js ───────────────────────────────────────
-// Widget flotante de IA para MH Bestiary
-// Usa la API de Anthropic (claude-sonnet-4-20250514)
-// El system prompt se enriquece dinámicamente con search-index.json
+// Asistente local para MH Bestiary
+// Sin API externa — responde con datos de wiki-data.json
 // ─────────────────────────────────────────────────────────
 
 (function () {
 
-  const BASE_PROMPT = `Eres el Archivista del Gremio, un experto absoluto en Monster Hunter World: Iceborne y en el MH Bestiary, una web de referencia sobre esta saga.
+  function normalize(str) {
+    return str.toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9\s]/g, ' ');
+  }
 
-Tu conocimiento cubre:
-- Todos los monstruos: debilidades elementales, partes rompibles, comportamiento, habitat, lore
-- Todas las armas: tipos, mecánicas de combate, árboles de mejora, estilos de juego recomendados
-- Mecánicas del juego: sistema de daño, elementos, estados alterados, mantos, Palicos, Tailriders
-- Consejos de caza: builds, estrategias, preparación, consumibles
-- Progresión: rangos Bajo, Alto y Maestro, historia, misiones clave
-
-Responde siempre en español, de forma concisa y útil. Puedes usar negrita (**texto**) para destacar nombres importantes. Mantén un tono épico pero claro, como un veterano del gremio hablando con un cazador. Si no sabes algo con certeza, dilo honestamente.`;
-
-  // ── Calcular ruta al JSON (igual que searchbar.js) ───
-  function getIndexPath() {
+  function getDataPath() {
     const path = window.location.pathname;
     const base = path.includes('/MHWeb/')
       ? path.split('/MHWeb/')[0] + '/MHWeb/'
       : '/';
-    return base + 'data/search-index.json';
+    return base + 'data/wiki-data.json';
   }
 
-  // ── Cargar índice y construir system prompt ──────────
-  async function buildSystemPrompt() {
-    try {
-      const res  = await fetch(getIndexPath());
-      const data = await res.json();
+  function resolveUrl(url) {
+    const path = window.location.pathname;
+    const base = path.includes('/MHWeb/')
+      ? path.split('/MHWeb/')[0] + '/MHWeb/'
+      : '/';
+    return base + url;
+  }
 
-      // Agrupar por categoría
-      const groups = {};
-      data.forEach(item => {
-        if (!groups[item.category]) groups[item.category] = [];
-        groups[item.category].push(item.title);
-      });
+  // ── Motor de respuestas ──────────────────────────────
+  function buildResponse(query, data) {
+    const q     = normalize(query);
+    const words = q.split(/\s+/).filter(w => w.length > 1);
 
-      const webContent = Object.entries(groups)
-        .map(([cat, titles]) => `${cat}s disponibles en la web: ${titles.join(', ')}`)
-        .join('\n');
+    const monsters = data.filter(d => d.category === 'Monstruo');
+    const weapons  = data.filter(d => d.category === 'Arma');
+    const cats     = data.filter(d => d.category === 'Categoría');
 
-      return `${BASE_PROMPT}
-
-Además, esta es la lista exacta de contenido disponible en MH Bestiary:
-${webContent}
-
-Cuando el usuario pregunte por algo de esta lista, puedes indicarle que existe una página dedicada en la web.`;
-
-    } catch {
-      return BASE_PROMPT;
+    // ── Listar todos los monstruos ───────────────────────
+    if (/(?:que|cuales|lista|todos)\s+(?:monstruos?|bichos?|criaturas?)/.test(q) || q === 'monstruos') {
+      return `Monstruos en el bestiario:\n${monsters.map(m => `**${m.title}**`).join(', ')}`;
     }
+
+    // ── Listar todas las armas ───────────────────────────
+    if (/(?:que|cuales|lista|todas)\s+(?:armas?)|^armas?$/.test(q)) {
+      return `Armas disponibles:\n${weapons.map(w => `**${w.title}**`).join(', ')}`;
+    }
+
+    // ── Listar categorías ────────────────────────────────
+    if (/(?:que|cuales|lista|todas)\s+(?:categorias?|tipos?)/.test(q)) {
+      return `Categorías disponibles:\n${cats.map(c => `**${c.title}**`).join(', ')}`;
+    }
+
+    // ── Monstruos débiles a X ────────────────────────────
+    const weakToMatch = q.match(/(?:monstruos?\s+)?d[eé]biles?\s+(?:al?|contra|al\s+elemento)?\s*(\w+)/);
+    if (weakToMatch) {
+      const elem = weakToMatch[1];
+      const found = monsters.filter(m => m.weakness && m.weakness.some(w => normalize(w).includes(elem)));
+      if (found.length) return `Monstruos débiles a **${elem}**:\n${found.map(m => `**${m.title}**`).join(', ')}`;
+    }
+
+    // ── Monstruos de tipo X ──────────────────────────────
+    const typeListMatch = q.match(/(?:monstruos?\s+)?(?:de\s+tipo|tipo)\s+(.+)/);
+    if (typeListMatch) {
+      const tipo = typeListMatch[1].trim();
+      const found = monsters.filter(m => m.type && normalize(m.type).includes(tipo));
+      if (found.length) return `Monstruos de tipo **${found[0].type}**:\n${found.map(m => `**${m.title}**`).join(', ')}`;
+    }
+
+    // ── Monstruos con elemento X ─────────────────────────
+    const elemListMatch = q.match(/(?:monstruos?\s+)?(?:con\s+elemento|de\s+elemento|elemento)\s+(\w+)/);
+    if (elemListMatch) {
+      const elem = elemListMatch[1];
+      const found = monsters.filter(m => m.element && normalize(m.element).includes(elem));
+      if (found.length) return `Monstruos con elemento **${found[0].element}**:\n${found.map(m => `**${m.title}**`).join(', ')}`;
+    }
+
+    // ── Buscar entidad concreta ──────────────────────────
+    let target = null;
+    let bestScore = 0;
+
+    data.forEach(item => {
+      let score = 0;
+      const itemNorm = normalize(item.title);
+      if (q.includes(itemNorm)) score += 10;
+      itemNorm.split(' ').forEach(w => { if (w.length > 2 && q.includes(w)) score += 3; });
+      if (item.keywords) {
+        item.keywords.forEach(kw => {
+          if (words.some(w => normalize(kw).includes(w) || w.includes(normalize(kw)))) score += 1;
+        });
+      }
+      if (score > bestScore) { bestScore = score; target = item; }
+    });
+
+    if (target && bestScore >= 3) {
+      // Debilidad
+      if (/debil|weak/.test(q)) {
+        if (target.weakness?.length) return `**${target.title}** es débil a: **${target.weakness.join('** y **')}**.`;
+        return `No tengo datos de debilidades para **${target.title}**.`;
+      }
+      // Tipo
+      if (/tipo|clase|especie/.test(q)) {
+        if (target.type) return `**${target.title}** es de tipo **${target.type}**.`;
+        return `**${target.title}** pertenece a la categoría **${target.category}**.`;
+      }
+      // Elemento
+      if (/elemento/.test(q)) {
+        if (target.category === 'Monstruo') {
+          return target.element
+            ? `**${target.title}** usa el elemento **${target.element}**.`
+            : `**${target.title}** no tiene elemento asociado.`;
+        }
+      }
+      // Dónde / página
+      if (/donde|pagina|enlace|link|url/.test(q)) {
+        return `Página de **${target.title}**: <a href="${resolveUrl(target.url)}">${target.title}</a>`;
+      }
+      // Respuesta general
+      let resp = `**${target.title}**`;
+      if (target.type)            resp += ` · Tipo: **${target.type}**`;
+      if (target.element)         resp += ` · Elemento: **${target.element}**`;
+      if (target.weakness?.length) resp += ` · Débil a: **${target.weakness.join(', ')}**`;
+      if (target.weaponType)      resp += ` · Categoría: **${target.weaponType}**`;
+      if (target.url)             resp += `\nPágina: <a href="${resolveUrl(target.url)}">${target.title}</a>`;
+      return resp;
+    }
+
+    // Sin resultados — sugerir similares
+    const suggestions = data
+      .filter(d => words.some(w => w.length > 2 && normalize(d.title).includes(w)))
+      .slice(0, 3).map(d => `**${d.title}**`).join(', ');
+
+    return suggestions
+      ? `No he encontrado una respuesta exacta. ¿Te refieres a: ${suggestions}?`
+      : `No tengo información sobre eso. Prueba preguntando por un monstruo, arma o categoría concreta.`;
   }
 
-  // ── Crear HTML del widget ────────────────────────────
+  // ── Widget HTML ──────────────────────────────────────
   function createWidget() {
     const trigger = document.createElement('button');
     trigger.className = 'mh-chat-trigger';
@@ -68,12 +148,13 @@ Cuando el usuario pregunte por algo de esta lista, puedes indicarle que existe u
       <div class="mh-chat-header">
         <span class="mh-chat-header__icon">🐉</span>
         <span class="mh-chat-header__title">Archivista del Gremio</span>
-        <span class="mh-chat-header__sub">IA experta</span>
+        <span class="mh-chat-header__sub">Asistente local</span>
       </div>
       <div class="mh-chat-messages" id="mh-messages">
         <div class="mh-msg mh-msg--ai">
           <div class="mh-msg__bubble">
-            Saludos, cazador. Soy el Archivista del Gremio. Pregúntame sobre monstruos, armas, mecánicas o cualquier detalle de <strong>Monster Hunter World: Iceborne</strong>.
+            Saludos, cazador.
+            Soy el Archivista del Gremio, tu asistente profesional del bestiario.
           </div>
         </div>
       </div>
@@ -90,21 +171,17 @@ Cuando el usuario pregunte por algo de esta lista, puedes indicarle que existe u
 
   // ── Init ─────────────────────────────────────────────
   async function initWidget() {
-    // Cargar el system prompt enriquecido en paralelo con el DOM
-    const systemPromptPromise = buildSystemPrompt();
+    let wikiData = [];
+    try {
+      const res = await fetch(getDataPath());
+      wikiData = await res.json();
+    } catch { console.warn('wiki-data.json no encontrado'); }
 
     const { trigger, panel } = createWidget();
     const messagesEl = document.getElementById('mh-messages');
     const inputEl    = document.getElementById('mh-input');
     const sendBtn    = document.getElementById('mh-send');
-
-    let isOpen    = false;
-    let isLoading = false;
-    let SYSTEM_PROMPT = BASE_PROMPT; // fallback hasta que cargue
-    const history = [];
-
-    // Actualizar con el prompt enriquecido cuando esté listo
-    systemPromptPromise.then(prompt => { SYSTEM_PROMPT = prompt; });
+    let isOpen = false;
 
     trigger.addEventListener('click', () => {
       isOpen = !isOpen;
@@ -114,104 +191,37 @@ Cuando el usuario pregunte por algo de esta lista, puedes indicarle que existe u
       if (isOpen) setTimeout(() => inputEl.focus(), 250);
     });
 
-    // Auto-resize textarea
     inputEl.addEventListener('input', () => {
       inputEl.style.height = 'auto';
       inputEl.style.height = Math.min(inputEl.scrollHeight, 80) + 'px';
     });
 
-    // Enter envía, Shift+Enter nueva línea
     inputEl.addEventListener('keydown', e => {
-      if (e.key === 'Enter' && !e.shiftKey) {
-        e.preventDefault();
-        sendMessage();
-      }
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
     });
     sendBtn.addEventListener('click', sendMessage);
 
-    // ── Añadir burbuja ────────────────────────────────
-    function addMessage(role, text) {
+    function addMessage(role, html) {
       const msg = document.createElement('div');
       msg.className = `mh-msg mh-msg--${role === 'user' ? 'user' : 'ai'}`;
-      msg.innerHTML = `<div class="mh-msg__bubble">${formatText(text)}</div>`;
+      msg.innerHTML = `<div class="mh-msg__bubble">${html}</div>`;
       messagesEl.appendChild(msg);
       messagesEl.scrollTop = messagesEl.scrollHeight;
-      return msg;
     }
 
     function formatText(text) {
-      return text
-        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\n/g, '<br>');
+      return text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
     }
 
-    function showTyping() {
-      const msg = document.createElement('div');
-      msg.className = 'mh-msg mh-msg--ai mh-msg--typing';
-      msg.id = 'mh-typing';
-      msg.innerHTML = `<div class="mh-msg__bubble">
-        <span class="mh-typing-dot"></span>
-        <span class="mh-typing-dot"></span>
-        <span class="mh-typing-dot"></span>
-      </div>`;
-      messagesEl.appendChild(msg);
-      messagesEl.scrollTop = messagesEl.scrollHeight;
-    }
-
-    function hideTyping() {
-      const t = document.getElementById('mh-typing');
-      if (t) t.remove();
-    }
-
-    // ── Enviar mensaje ────────────────────────────────
-    async function sendMessage() {
+    function sendMessage() {
       const text = inputEl.value.trim();
-      if (!text || isLoading) return;
-
+      if (!text) return;
       inputEl.value = '';
       inputEl.style.height = 'auto';
       addMessage('user', text);
-      history.push({ role: 'user', content: text });
-
-      isLoading = true;
-      sendBtn.disabled = true;
-      inputEl.disabled = true;
-      showTyping();
-
-      try {
-        // Asegurarse de que el system prompt esté listo
-        SYSTEM_PROMPT = await systemPromptPromise;
-
-        const response = await fetch('https://api.anthropic.com/v1/messages', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            model: 'claude-sonnet-4-20250514',
-            max_tokens: 1000,
-            system: SYSTEM_PROMPT,
-            messages: history
-          })
-        });
-
-        const data  = await response.json();
-        const reply = data.content?.[0]?.text || 'No he podido obtener una respuesta. Inténtalo de nuevo.';
-
-        history.push({ role: 'assistant', content: reply });
-        if (history.length > 20) history.splice(0, 2);
-
-        hideTyping();
-        addMessage('ai', reply);
-
-      } catch (err) {
-        hideTyping();
-        addMessage('ai', 'Ha ocurrido un error al contactar con el gremio. Comprueba tu conexión e inténtalo de nuevo.');
-        console.error('Chat error:', err);
-      } finally {
-        isLoading = false;
-        sendBtn.disabled = false;
-        inputEl.disabled = false;
-        inputEl.focus();
-      }
+      setTimeout(() => {
+        addMessage('ai', formatText(buildResponse(text, wikiData)));
+      }, 180);
     }
   }
 
