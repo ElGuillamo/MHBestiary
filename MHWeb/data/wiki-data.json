@@ -1,286 +1,3103 @@
 [
   {
-    "title": "Bestiario",
+    "title": "Arco",
+    "category": "Arma",
+    "url": "html/armas/arco.html",
+    "weaponType": "A distancia",
+    "keywords": [
+      "arco",
+      "arma",
+      "distancia"
+    ]
+  },
+  {
+    "title": "Ballesta Ligera",
+    "category": "Arma",
+    "url": "html/armas/ballesta_ligera.html",
+    "weaponType": "A distancia",
+    "keywords": [
+      "arma",
+      "ballesta",
+      "distancia",
+      "ligera"
+    ]
+  },
+  {
+    "title": "Ballesta Pesada",
+    "category": "Arma",
+    "url": "html/armas/ballesta_pesada.html",
+    "weaponType": "A distancia",
+    "keywords": [
+      "arma",
+      "ballesta",
+      "distancia",
+      "pesada"
+    ]
+  },
+  {
+    "title": "Cornamusa",
+    "category": "Arma",
+    "url": "html/armas/cornamusa.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cornamusa",
+      "cuerpo"
+    ]
+  },
+  {
+    "title": "Espada y Escudo",
+    "category": "Arma",
+    "url": "html/armas/espada_escudo.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cuerpo",
+      "escudo",
+      "espada"
+    ]
+  },
+  {
+    "title": "Espada larga",
+    "category": "Arma",
+    "url": "html/armas/espada_larga.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cuerpo",
+      "espada",
+      "larga"
+    ]
+  },
+  {
+    "title": "Espadas Dobles",
+    "category": "Arma",
+    "url": "html/armas/espadas_dobles.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cuerpo",
+      "dobles",
+      "espadas"
+    ]
+  },
+  {
+    "title": "Glaive insecto",
+    "category": "Arma",
+    "url": "html/armas/glaive_insecto.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cuerpo",
+      "glaive",
+      "insecto"
+    ]
+  },
+  {
+    "title": "Gran espada",
+    "category": "Arma",
+    "url": "html/armas/gran_espada.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cuerpo",
+      "espada",
+      "gran"
+    ]
+  },
+  {
+    "title": "Hacha Cargada",
+    "category": "Arma",
+    "url": "html/armas/hacha_cargada.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cargada",
+      "cuerpo",
+      "hacha"
+    ]
+  },
+  {
+    "title": "Hacha espada",
+    "category": "Arma",
+    "url": "html/armas/hacha_espada.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cuerpo",
+      "espada",
+      "hacha"
+    ]
+  },
+  {
+    "title": "Lanza",
+    "category": "Arma",
+    "url": "html/armas/lanza.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cuerpo",
+      "lanza"
+    ]
+  },
+  {
+    "title": "Lanza Pistola",
+    "category": "Arma",
+    "url": "html/armas/lanza_pistola.html",
+    "weaponType": "A distancia",
+    "keywords": [
+      "arma",
+      "distancia",
+      "lanza",
+      "pistola"
+    ]
+  },
+  {
+    "title": "Martillo",
+    "category": "Arma",
+    "url": "html/armas/martillo.html",
+    "weaponType": "Cuerpo a cuerpo",
+    "keywords": [
+      "arma",
+      "cuerpo",
+      "martillo"
+    ]
+  },
+  {
+    "title": "Monster Hunter — Bestiario",
     "category": "Página",
     "url": "html/landingpage.html",
-    "keywords": ["bestiario", "inicio", "home", "monstruos", "lista"]
+    "keywords": [
+      "bestiario",
+      "hunter",
+      "landingpage",
+      "monster",
+      "página"
+    ]
   },
   {
     "title": "Iniciar sesión",
     "category": "Cuenta",
     "url": "html/login.html",
-    "keywords": ["login", "sesión", "entrar", "acceder", "cuenta"]
+    "keywords": [
+      "cuenta",
+      "iniciar",
+      "login",
+      "sesión"
+    ]
+  },
+  {
+    "title": "Agnaktor",
+    "category": "Monstruo",
+    "url": "html/monsters/agnaktor.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "agnaktor",
+      "dragón",
+      "leviatán",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Ahtal-Ka",
+    "category": "Monstruo",
+    "url": "html/monsters/ahtal_ka.html",
+    "type": "Neopteron",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "ahtal",
+      "ahtal-ka",
+      "dragón",
+      "ka",
+      "monstruo",
+      "neopteron",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Ajarakan",
+    "category": "Monstruo",
+    "url": "html/monsters/ajarakan.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "ajarakan",
+      "bestia",
+      "colmillos",
+      "de",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Akantor",
+    "category": "Monstruo",
+    "url": "html/monsters/akantor.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "akantor",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Aknosom",
+    "category": "Monstruo",
+    "url": "html/monsters/aknosom.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "aknosom",
+      "dragón",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Alatreon",
+    "category": "Monstruo",
+    "url": "html/monsters/alatreon.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "alatreon",
+      "anciano",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Almudrón",
+    "category": "Monstruo",
+    "url": "html/monsters/almudrón.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "almudrón",
+      "dragón",
+      "leviatán",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Amatsu",
+    "category": "Monstruo",
+    "url": "html/monsters/amatsu.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "amatsu",
+      "anciano",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Anjanath Fulgúreo Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/anj_fulg_g.html",
+    "type": "Constructo",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anj",
+      "anjanath",
+      "constructo",
+      "dragón",
+      "fulg",
+      "fulgúreo",
+      "guardián",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Anjanath",
+    "category": "Monstruo",
+    "url": "html/monsters/anjanath.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anjanath",
+      "bruto",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Arkveld",
+    "category": "Monstruo",
+    "url": "html/monsters/arkveld.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "arkveld",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Arkveld Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/arkveld_g.html",
+    "type": "Constructo",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "arkveld",
+      "constructo",
+      "dragón",
+      "guardián",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Arzuros",
+    "category": "Monstruo",
+    "url": "html/monsters/arzuros.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "arzuros",
+      "bestia",
+      "colmillos",
+      "de",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Astalos",
+    "category": "Monstruo",
+    "url": "html/monsters/astalos.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "astalos",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Balahara",
+    "category": "Monstruo",
+    "url": "html/monsters/balahara.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "balahara",
+      "dragón",
+      "leviatán",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Banbaro",
+    "category": "Monstruo",
+    "url": "html/monsters/banbaro.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "banbaro",
+      "bruto",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Barioth",
+    "category": "Monstruo",
+    "url": "html/monsters/barioth.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "barioth",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Barroth",
+    "category": "Monstruo",
+    "url": "html/monsters/barroth.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "barroth",
+      "bruto",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Basarios",
+    "category": "Monstruo",
+    "url": "html/monsters/basarios.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "basarios",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Bazelgeuse",
+    "category": "Monstruo",
+    "url": "html/monsters/bazelgeuse.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bazelgeuse",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Beotodus",
+    "category": "Monstruo",
+    "url": "html/monsters/beotodus.html",
+    "type": "Wyvern nadador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "beotodus",
+      "dragón",
+      "monstruo",
+      "nadador",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Bishaten",
+    "category": "Monstruo",
+    "url": "html/monsters/bishaten.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "bishaten",
+      "colmillos",
+      "de",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Blangonga",
+    "category": "Monstruo",
+    "url": "html/monsters/blangonga.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "blangonga",
+      "colmillos",
+      "de",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Brachydios",
+    "category": "Monstruo",
+    "url": "html/monsters/brachydios.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "brachydios",
+      "bruto",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Bulldrome",
+    "category": "Monstruo",
+    "url": "html/monsters/bulldrome.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "bulldrome",
+      "colmillos",
+      "de",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Anfibios",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/anfibios.html",
+    "keywords": [
+      "anfibios",
+      "categoría"
+    ]
+  },
+  {
+    "title": "Bestias de Colmillos",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/bestias_colmillos.html",
+    "keywords": [
+      "bestias",
+      "categoría",
+      "colmillos",
+      "de"
+    ]
+  },
+  {
+    "title": "Carapaceons",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/carapaceon.html",
+    "keywords": [
+      "carapaceon",
+      "carapaceons",
+      "categoría"
+    ]
+  },
+  {
+    "title": "Cefalópodos",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/cefalópodos.html",
+    "keywords": [
+      "categoría",
+      "cefalópodos"
+    ]
+  },
+  {
+    "title": "Constructos",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/constructos.html",
+    "keywords": [
+      "categoría",
+      "constructos"
+    ]
+  },
+  {
+    "title": "Dragones Ancianos",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/dragones_ancianos.html",
+    "keywords": [
+      "ancianos",
+      "categoría",
+      "dragones"
+    ]
+  },
+  {
+    "title": "???",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/indefinido.html",
+    "keywords": [
+      "categoría",
+      "indefinido"
+    ]
+  },
+  {
+    "title": "Leviatanes",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/leviatanes.html",
+    "keywords": [
+      "categoría",
+      "leviatanes"
+    ]
+  },
+  {
+    "title": "Neopterons",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/neopterons.html",
+    "keywords": [
+      "categoría",
+      "neopterons"
+    ]
+  },
+  {
+    "title": "No clasificados",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/no_clasificados.html",
+    "keywords": [
+      "categoría",
+      "clasificados",
+      "no"
+    ]
+  },
+  {
+    "title": "Relictos",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/relictos.html",
+    "keywords": [
+      "categoría",
+      "relictos"
+    ]
+  },
+  {
+    "title": "Semiancianos",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/semiancianos.html",
+    "keywords": [
+      "categoría",
+      "semiancianos"
+    ]
+  },
+  {
+    "title": "Temnocerans",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/temnocerans.html",
+    "keywords": [
+      "categoría",
+      "temnocerans"
+    ]
+  },
+  {
+    "title": "Wyverns Brutales",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/wyverns_brutales.html",
+    "keywords": [
+      "brutales",
+      "categoría",
+      "wyverns"
+    ]
+  },
+  {
+    "title": "Wyverns de Colmillos",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/wyverns_colmillos.html",
+    "keywords": [
+      "categoría",
+      "colmillos",
+      "de",
+      "wyverns"
+    ]
+  },
+  {
+    "title": "Wyverns Nadador",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/wyverns_nadador.html",
+    "keywords": [
+      "categoría",
+      "nadador",
+      "wyverns"
+    ]
+  },
+  {
+    "title": "Wyverns Pájaro",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/wyverns_pájaro.html",
+    "keywords": [
+      "categoría",
+      "pájaro",
+      "wyverns"
+    ]
+  },
+  {
+    "title": "Wyverns Serpiente",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/wyverns_serpiente.html",
+    "keywords": [
+      "categoría",
+      "serpiente",
+      "wyverns"
+    ]
+  },
+  {
+    "title": "Wyverns Volador",
+    "category": "Categoría",
+    "url": "html/monsters/categorías/wyverns_volador.html",
+    "keywords": [
+      "categoría",
+      "volador",
+      "wyverns"
+    ]
+  },
+  {
+    "title": "Ceadeus",
+    "category": "Monstruo",
+    "url": "html/monsters/ceadeus.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "ceadeus",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Cephadrome",
+    "category": "Monstruo",
+    "url": "html/monsters/cephadrome.html",
+    "type": "Wyvern nadador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "cephadrome",
+      "dragón",
+      "monstruo",
+      "nadador",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Chameleos",
+    "category": "Monstruo",
+    "url": "html/monsters/chameleos.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "chameleos",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Chatacabra",
+    "category": "Monstruo",
+    "url": "html/monsters/chatacabra.html",
+    "type": "Anfibio",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anfibio",
+      "chatacabra",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Congalala",
+    "category": "Monstruo",
+    "url": "html/monsters/congalala.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "congalala",
+      "de",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Daimyo Hermitaur",
+    "category": "Monstruo",
+    "url": "html/monsters/daimyo.html",
+    "type": "Carapaceon",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "carapaceon",
+      "daimyo",
+      "dragón",
+      "hermitaur",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Dalamadur",
+    "category": "Monstruo",
+    "url": "html/monsters/dalamadur.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dalamadur",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Deviljho",
+    "category": "Monstruo",
+    "url": "html/monsters/deviljho.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "deviljho",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Diablos",
+    "category": "Monstruo",
+    "url": "html/monsters/diablos.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "diablos",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Dodogama",
+    "category": "Monstruo",
+    "url": "html/monsters/dodogama.html",
+    "type": "Wyvern de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "colmillos",
+      "de",
+      "dodogama",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Doshaguma",
+    "category": "Monstruo",
+    "url": "html/monsters/doshaguma.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "de",
+      "doshaguma",
+      "dragón",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Doshaguma Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/doshaguma_g.html",
+    "type": "Constructo",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "constructo",
+      "doshaguma",
+      "dragón",
+      "guardián",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Duramboros",
+    "category": "Monstruo",
+    "url": "html/monsters/duramboros.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "dragón",
+      "duramboros",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Espinas",
+    "category": "Monstruo",
+    "url": "html/monsters/espinas.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "espinas",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Fatalis",
+    "category": "Monstruo",
+    "url": "html/monsters/fatalis.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "fatalis",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Gammoth",
+    "category": "Monstruo",
+    "url": "html/monsters/gammoth.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "de",
+      "dragón",
+      "gammoth",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Garangolm",
+    "category": "Monstruo",
+    "url": "html/monsters/garangolm.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "de",
+      "dragón",
+      "garangolm",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Gendrome",
+    "category": "Monstruo",
+    "url": "html/monsters/gendrome.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gendrome",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Giadrome",
+    "category": "Monstruo",
+    "url": "html/monsters/giadrome.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "giadrome",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gigginox",
+    "category": "Monstruo",
+    "url": "html/monsters/gigginox.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gigginox",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Glavenus",
+    "category": "Monstruo",
+    "url": "html/monsters/glavenus.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "dragón",
+      "glavenus",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gobul",
+    "category": "Monstruo",
+    "url": "html/monsters/gobul.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gobul",
+      "leviatán",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Gogmazios",
+    "category": "Monstruo",
+    "url": "html/monsters/gogmazios.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "gogmazios",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Gore Magala",
+    "category": "Monstruo",
+    "url": "html/monsters/gore_magala.html",
+    "type": "Semianciano / ???",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gore",
+      "magala",
+      "monstruo",
+      "rayo",
+      "semianciano"
+    ]
+  },
+  {
+    "title": "Gran Baggi",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_baggi.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "baggi",
+      "dragón",
+      "gran",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gran Girros",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_girros.html",
+    "type": "Wyvern de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "colmillos",
+      "de",
+      "dragón",
+      "girros",
+      "gran",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gran Izuchi",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_izuchi.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gran",
+      "izuchi",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gran Jaggi",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_jaggi.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gran",
+      "jaggi",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gran Jagras",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_jagras.html",
+    "type": "Wyvern de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "colmillos",
+      "de",
+      "dragón",
+      "gran",
+      "jagras",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gran Maccao",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_maccao.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gran",
+      "maccao",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gran Wroggi",
+    "category": "Monstruo",
+    "url": "html/monsters/gran_wroggi.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gran",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wroggi",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gravios",
+    "category": "Monstruo",
+    "url": "html/monsters/gravios.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gravios",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Gypceros",
+    "category": "Monstruo",
+    "url": "html/monsters/gypceros.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "gypceros",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Goss Harag",
+    "category": "Monstruo",
+    "url": "html/monsters/harag.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "de",
+      "dragón",
+      "goss",
+      "harag",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Vaal Hazak",
+    "category": "Monstruo",
+    "url": "html/monsters/hazak.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "hazak",
+      "monstruo",
+      "rayo",
+      "vaal"
+    ]
+  },
+  {
+    "title": "Hirabami",
+    "category": "Monstruo",
+    "url": "html/monsters/hirabami.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "hirabami",
+      "leviatán",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Iodrome",
+    "category": "Monstruo",
+    "url": "html/monsters/iodrome.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "iodrome",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Jin Dahaad",
+    "category": "Monstruo",
+    "url": "html/monsters/jin_dahaad.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dahaad",
+      "dragón",
+      "jin",
+      "leviatán",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Jyuratodus",
+    "category": "Monstruo",
+    "url": "html/monsters/jyuratodus.html",
+    "type": "Wyvern nadador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "jyuratodus",
+      "monstruo",
+      "nadador",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Rakna Kadaki",
+    "category": "Monstruo",
+    "url": "html/monsters/kadaki.html",
+    "type": "Temnoceran",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "kadaki",
+      "monstruo",
+      "rakna",
+      "rayo",
+      "temnoceran"
+    ]
+  },
+  {
+    "title": "Rakna Kadaki Pira",
+    "category": "Monstruo",
+    "url": "html/monsters/kadaki_pira.html",
+    "type": "Temnoceran",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "kadaki",
+      "monstruo",
+      "pira",
+      "rakna",
+      "rayo",
+      "temnoceran"
+    ]
+  },
+  {
+    "title": "Kecha Wacha",
+    "category": "Monstruo",
+    "url": "html/monsters/kecha.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "de",
+      "dragón",
+      "kecha",
+      "monstruo",
+      "rayo",
+      "wacha"
+    ]
+  },
+  {
+    "title": "Khezu",
+    "category": "Monstruo",
+    "url": "html/monsters/khezu.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "khezu",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Kirin",
+    "category": "Monstruo",
+    "url": "html/monsters/kirin.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "kirin",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Kulu-Ya-Ku",
+    "category": "Monstruo",
+    "url": "html/monsters/kulu_ya_ku.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "ku",
+      "kulu",
+      "kulu-ya-ku",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern",
+      "ya"
+    ]
+  },
+  {
+    "title": "Kushala Daora",
+    "category": "Monstruo",
+    "url": "html/monsters/kushala.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "daora",
+      "dragon",
+      "dragón",
+      "kushala",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Lagiacrus",
+    "category": "Monstruo",
+    "url": "html/monsters/lagiacrus.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "lagiacrus",
+      "leviatán",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Lagombi",
+    "category": "Monstruo",
+    "url": "html/monsters/lagombi.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "de",
+      "dragón",
+      "lagombi",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Lala Barina",
+    "category": "Monstruo",
+    "url": "html/monsters/lala_barina.html",
+    "type": "Temnoceran",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "barina",
+      "dragón",
+      "lala",
+      "monstruo",
+      "rayo",
+      "temnoceran"
+    ]
+  },
+  {
+    "title": "Lao Shen Lung",
+    "category": "Monstruo",
+    "url": "html/monsters/lao.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "lao",
+      "lung",
+      "monstruo",
+      "rayo",
+      "shen"
+    ]
+  },
+  {
+    "title": "Lavasioth",
+    "category": "Monstruo",
+    "url": "html/monsters/lavasioth.html",
+    "type": "Wyvern nadador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "lavasioth",
+      "monstruo",
+      "nadador",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Laviente",
+    "category": "Monstruo",
+    "url": "html/monsters/laviente.html",
+    "type": "No clasificado",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "clasificado",
+      "dragón",
+      "laviente",
+      "monstruo",
+      "no",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Laviente Berserker",
+    "category": "Monstruo",
+    "url": "html/monsters/laviente_berserker.html",
+    "type": "No clasificado",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "berserker",
+      "clasificado",
+      "dragón",
+      "laviente",
+      "monstruo",
+      "no",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Laviente Violento",
+    "category": "Monstruo",
+    "url": "html/monsters/laviente_violento.html",
+    "type": "No clasificado",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "clasificado",
+      "dragón",
+      "laviente",
+      "monstruo",
+      "no",
+      "rayo",
+      "violento"
+    ]
+  },
+  {
+    "title": "Legiana",
+    "category": "Monstruo",
+    "url": "html/monsters/legiana.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "legiana",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Leshen",
+    "category": "Monstruo",
+    "url": "html/monsters/leshen.html",
+    "type": "Relicto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "leshen",
+      "monstruo",
+      "rayo",
+      "relicto"
+    ]
+  },
+  {
+    "title": "Leshen Antiguo",
+    "category": "Monstruo",
+    "url": "html/monsters/leshen_antiguo.html",
+    "type": "Relicto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "antiguo",
+      "dragón",
+      "leshen",
+      "monstruo",
+      "rayo",
+      "relicto"
+    ]
+  },
+  {
+    "title": "Ludroth Real",
+    "category": "Monstruo",
+    "url": "html/monsters/ludroth_real.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "leviatán",
+      "ludroth",
+      "monstruo",
+      "rayo",
+      "real"
+    ]
+  },
+  {
+    "title": "Lunagaron",
+    "category": "Monstruo",
+    "url": "html/monsters/lunagaron.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "dragón",
+      "lunagaron",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Magnamalo",
+    "category": "Monstruo",
+    "url": "html/monsters/magnamalo.html",
+    "type": "Wyvern de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "colmillos",
+      "de",
+      "dragón",
+      "magnamalo",
+      "monstruo",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Malfestio",
+    "category": "Monstruo",
+    "url": "html/monsters/malfestio.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "malfestio",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Malzeno",
+    "category": "Monstruo",
+    "url": "html/monsters/malzeno.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "malzeno",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Miralis Funesto",
+    "category": "Monstruo",
+    "url": "html/monsters/miralis.html",
+    "type": "Dragon anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "funesto",
+      "miralis",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Mizutsune",
+    "category": "Monstruo",
+    "url": "html/monsters/mizutsune.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "leviatán",
+      "mizutsune",
+      "monstruo",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Dah'ren Mohran",
+    "category": "Monstruo",
+    "url": "html/monsters/mohran.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dah",
+      "dragon",
+      "dragón",
+      "mohran",
+      "monstruo",
+      "rayo",
+      "ren"
+    ]
+  },
+  {
+    "title": "Monoblos",
+    "category": "Monstruo",
+    "url": "html/monsters/monoblos.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monoblos",
+      "monstruo",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Najarala",
+    "category": "Monstruo",
+    "url": "html/monsters/najarala.html",
+    "type": "Wyvern serpiente",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "najarala",
+      "rayo",
+      "serpiente",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Najarala Abisal",
+    "category": "Monstruo",
+    "url": "html/monsters/najarala_abisal.html",
+    "type": "Wyvern serpiente",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "abisal",
+      "dragón",
+      "monstruo",
+      "najarala",
+      "rayo",
+      "serpiente",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Nakarkos",
+    "category": "Monstruo",
+    "url": "html/monsters/nakarkos.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "nakarkos",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Namielle",
+    "category": "Monstruo",
+    "url": "html/monsters/namielle.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "namielle",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Nargacuga",
+    "category": "Monstruo",
+    "url": "html/monsters/nargacuga.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "nargacuga",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Nergigante",
+    "category": "Monstruo",
+    "url": "html/monsters/nergigante.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "nergigante",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Nerscylla",
+    "category": "Monstruo",
+    "url": "html/monsters/nerscylla.html",
+    "type": "Temnoceran",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "nerscylla",
+      "rayo",
+      "temnoceran"
+    ]
+  },
+  {
+    "title": "Nerscylla Sombrío",
+    "category": "Monstruo",
+    "url": "html/monsters/nerscylla_sombrío.html",
+    "type": "Temnoceran",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "nerscylla",
+      "rayo",
+      "sombrío",
+      "temnoceran"
+    ]
+  },
+  {
+    "title": "Nibelsnarf",
+    "category": "Monstruo",
+    "url": "html/monsters/nibelsnarf.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "leviatán",
+      "monstruo",
+      "nibelsnarf",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Nu Udra",
+    "category": "Monstruo",
+    "url": "html/monsters/nu_udra.html",
+    "type": "Cefalópodo",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "cefalópodo",
+      "dragón",
+      "monstruo",
+      "nu",
+      "rayo",
+      "udra"
+    ]
+  },
+  {
+    "title": "Odogaron Ébano Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/od_éb_g.html",
+    "type": "Constructo",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "constructo",
+      "dragón",
+      "guardián",
+      "monstruo",
+      "od",
+      "odogaron",
+      "rayo",
+      "éb",
+      "ébano"
+    ]
+  },
+  {
+    "title": "Odogaron",
+    "category": "Monstruo",
+    "url": "html/monsters/odogaron.html",
+    "type": "Wyvern de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "colmillos",
+      "de",
+      "dragón",
+      "monstruo",
+      "odogaron",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Paolumu",
+    "category": "Monstruo",
+    "url": "html/monsters/paolumu.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "paolumu",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Plesioth",
+    "category": "Monstruo",
+    "url": "html/monsters/plesioth.html",
+    "type": "Wyvern nadador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "nadador",
+      "plesioth",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Pukei Pukei",
+    "category": "Monstruo",
+    "url": "html/monsters/pukei.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "pukei",
+      "pájaro",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Quematrice",
+    "category": "Monstruo",
+    "url": "html/monsters/quematrice.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "dragón",
+      "monstruo",
+      "quematrice",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Qurupeco",
+    "category": "Monstruo",
+    "url": "html/monsters/qurupeco.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "pájaro",
+      "qurupeco",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Radobaan",
+    "category": "Monstruo",
+    "url": "html/monsters/radobaan.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "dragón",
+      "monstruo",
+      "radobaan",
+      "rayo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Rajang",
+    "category": "Monstruo",
+    "url": "html/monsters/rajang.html",
+    "type": "Bestia colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "dragón",
+      "monstruo",
+      "rajang",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Rathalos",
+    "category": "Monstruo",
+    "url": "html/monsters/rathalos.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "rathalos",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Rathalos Guardián",
+    "category": "Monstruo",
+    "url": "html/monsters/rathalos_g.html",
+    "type": "Constructo",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "constructo",
+      "dragón",
+      "guardián",
+      "monstruo",
+      "rathalos",
+      "rayo"
+    ]
+  },
+  {
+    "title": "Rathian",
+    "category": "Monstruo",
+    "url": "html/monsters/rathian.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "rathian",
+      "rayo",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Rey Dau",
+    "category": "Monstruo",
+    "url": "html/monsters/rey_dau.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dau",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "rey",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Rompopolo",
+    "category": "Monstruo",
+    "url": "html/monsters/rompopolo.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "rompopolo",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Seltas",
+    "category": "Monstruo",
+    "url": "html/monsters/seltas.html",
+    "type": "Neopteron",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "neopteron",
+      "rayo",
+      "seltas"
+    ]
+  },
+  {
+    "title": "Seltas Reina",
+    "category": "Monstruo",
+    "url": "html/monsters/seltas_reina.html",
+    "type": "Neopteron",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "neopteron",
+      "rayo",
+      "reina",
+      "seltas"
+    ]
+  },
+  {
+    "title": "Seregios",
+    "category": "Monstruo",
+    "url": "html/monsters/seregios.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "rayo",
+      "seregios",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Shagaru Magala",
+    "category": "Monstruo",
+    "url": "html/monsters/shagaru.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "magala",
+      "monstruo",
+      "rayo",
+      "shagaru"
+    ]
+  },
+  {
+    "title": "Shen Gaoren",
+    "category": "Monstruo",
+    "url": "html/monsters/shen_gaoren.html",
+    "type": "Carapaceon",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "carapaceon",
+      "dragón",
+      "gaoren",
+      "monstruo",
+      "rayo",
+      "shen"
+    ]
+  },
+  {
+    "title": "Zoh Shia",
+    "category": "Monstruo",
+    "url": "html/monsters/shia.html",
+    "type": "Constructo",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "constructo",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "shia",
+      "zoh"
+    ]
+  },
+  {
+    "title": "Shogun Ceanataur",
+    "category": "Monstruo",
+    "url": "html/monsters/shogun.html",
+    "type": "Carapaceon",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "carapaceon",
+      "ceanataur",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "shogun"
+    ]
+  },
+  {
+    "title": "Somnacanth",
+    "category": "Monstruo",
+    "url": "html/monsters/somnacanth.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "leviatán",
+      "monstruo",
+      "rayo",
+      "somnacanth"
+    ]
+  },
+  {
+    "title": "Teostra",
+    "category": "Monstruo",
+    "url": "html/monsters/teostra.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "teostra"
+    ]
+  },
+  {
+    "title": "Tetranadon",
+    "category": "Monstruo",
+    "url": "html/monsters/tetranadon.html",
+    "type": "Anfibio",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anfibio",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "tetranadon"
+    ]
+  },
+  {
+    "title": "Tetsucabra",
+    "category": "Monstruo",
+    "url": "html/monsters/tetsucabra.html",
+    "type": "Anfibio",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anfibio",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "tetsucabra"
+    ]
+  },
+  {
+    "title": "Tigrex",
+    "category": "Monstruo",
+    "url": "html/monsters/tigrex.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "rayo",
+      "tigrex",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Tobi Kadachi",
+    "category": "Monstruo",
+    "url": "html/monsters/tobi_kadachi.html",
+    "type": "Wyvern de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "colmillos",
+      "de",
+      "dragón",
+      "kadachi",
+      "monstruo",
+      "rayo",
+      "tobi",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Tzitzi-Ya-Ku",
+    "category": "Monstruo",
+    "url": "html/monsters/tzitzi_ya_ku.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "ku",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "tzitzi",
+      "tzitzi-ya-ku",
+      "wyvern",
+      "ya"
+    ]
+  },
+  {
+    "title": "Ukanlos",
+    "category": "Monstruo",
+    "url": "html/monsters/ukanlos.html",
+    "type": "Wyvern volador",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "rayo",
+      "ukanlos",
+      "volador",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Uragaan",
+    "category": "Monstruo",
+    "url": "html/monsters/uragaan.html",
+    "type": "Wyvern bruto",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bruto",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "uragaan",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Uth Duna",
+    "category": "Monstruo",
+    "url": "html/monsters/uth_duna.html",
+    "type": "Leviatán",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "duna",
+      "leviatán",
+      "monstruo",
+      "rayo",
+      "uth"
+    ]
+  },
+  {
+    "title": "Valstrax",
+    "category": "Monstruo",
+    "url": "html/monsters/valstrax.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "valstrax"
+    ]
+  },
+  {
+    "title": "Velkhana",
+    "category": "Monstruo",
+    "url": "html/monsters/velkhana.html",
+    "type": "Dragón anciano",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anciano",
+      "dragon",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "velkhana"
+    ]
+  },
+  {
+    "title": "Velocidrome",
+    "category": "Monstruo",
+    "url": "html/monsters/velocidrome.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "velocidrome",
+      "wyvern"
+    ]
+  },
+  {
+    "title": "Volvidon",
+    "category": "Monstruo",
+    "url": "html/monsters/volvidon.html",
+    "type": "Bestia de colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "bestia",
+      "colmillos",
+      "de",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "volvidon"
+    ]
+  },
+  {
+    "title": "Xu Wu",
+    "category": "Monstruo",
+    "url": "html/monsters/xu_wu.html",
+    "type": "Cefalópodo",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "cefalópodo",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wu",
+      "xu"
+    ]
+  },
+  {
+    "title": "Yian Garuga",
+    "category": "Monstruo",
+    "url": "html/monsters/yian_garuga.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "garuga",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern",
+      "yian"
+    ]
+  },
+  {
+    "title": "Yian Kut Ku",
+    "category": "Monstruo",
+    "url": "html/monsters/yian_kut_ku.html",
+    "type": "Wyvern pájaro",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "dragón",
+      "ku",
+      "kut",
+      "monstruo",
+      "pájaro",
+      "rayo",
+      "wyvern",
+      "yian"
+    ]
+  },
+  {
+    "title": "Zamtrios",
+    "category": "Monstruo",
+    "url": "html/monsters/zamtrios.html",
+    "type": "Anfibio",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "anfibio",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "zamtrios"
+    ]
+  },
+  {
+    "title": "Zinogre",
+    "category": "Monstruo",
+    "url": "html/monsters/zinogre.html",
+    "type": "Wyvern colmillos",
+    "element": null,
+    "weakness": [
+      "Rayo",
+      "Dragón"
+    ],
+    "keywords": [
+      "colmillos",
+      "dragón",
+      "monstruo",
+      "rayo",
+      "wyvern",
+      "zinogre"
+    ]
   },
   {
     "title": "Crear cuenta",
     "category": "Cuenta",
     "url": "html/register.html",
-    "keywords": ["registro", "registrar", "crear", "cuenta", "nueva"]
-  },
-
-  {
-    "title": "Anjanath",
-    "category": "Monstruo",
-    "type": "Wyvern Bruto",
-    "element": "Fuego",
-    "weakness": ["Agua", "Trueno"],
-    "url": "html/monsters/anjanath.html",
-    "keywords": ["anjanath", "wyvern", "bruto", "fuego", "dinosaurio"]
-  },
-  {
-    "title": "Brachydios",
-    "category": "Monstruo",
-    "type": "Wyvern Bruto",
-    "element": "Explosión",
-    "weakness": ["Hielo", "Agua"],
-    "url": "html/monsters/brachydios.html",
-    "keywords": ["brachydios", "wyvern", "bruto", "explosion", "slime", "verde"]
-  },
-  {
-    "title": "Barioth",
-    "category": "Monstruo",
-    "type": "Wyvern Volador",
-    "element": "Hielo",
-    "weakness": ["Fuego", "Trueno"],
-    "url": "html/monsters/barioth.html",
-    "keywords": ["barioth", "wyvern", "volador", "hielo", "colmillos", "nieve"]
-  },
-  {
-    "title": "Chameleos",
-    "category": "Monstruo",
-    "type": "Dragón Anciano",
-    "element": "Veneno",
-    "weakness": ["Fuego", "Trueno"],
-    "url": "html/monsters/chameleos.html",
-    "keywords": ["chameleos", "dragon", "anciano", "veneno", "camaleón", "invisible"]
-  },
-  {
-    "title": "Diablos",
-    "category": "Monstruo",
-    "type": "Wyvern Bruto",
-    "element": null,
-    "weakness": ["Hielo", "Agua"],
-    "url": "html/monsters/diablos.html",
-    "keywords": ["diablos", "wyvern", "bruto", "cuernos", "desierto"]
-  },
-  {
-    "title": "Glavenus",
-    "category": "Monstruo",
-    "type": "Wyvern Bruto",
-    "element": "Fuego",
-    "weakness": ["Agua", "Dragón"],
-    "url": "html/monsters/glavenus.html",
-    "keywords": ["glavenus", "wyvern", "bruto", "fuego", "cola", "espada"]
-  },
-  {
-    "title": "Kushala Daora",
-    "category": "Monstruo",
-    "type": "Dragón Anciano",
-    "element": "Viento",
-    "weakness": ["Trueno", "Dragón"],
-    "url": "html/monsters/kushala-daora.html",
-    "keywords": ["kushala", "daora", "dragon", "anciano", "viento", "acero", "metal"]
-  },
-  {
-    "title": "Lagiacrus",
-    "category": "Monstruo",
-    "type": "Leviatán",
-    "element": "Trueno",
-    "weakness": ["Fuego", "Hielo"],
-    "url": "html/monsters/lagiacrus.html",
-    "keywords": ["lagiacrus", "leviatan", "trueno", "agua", "serpiente"]
-  },
-  {
-    "title": "Namielle",
-    "category": "Monstruo",
-    "type": "Dragón Anciano",
-    "element": "Agua",
-    "weakness": ["Fuego", "Trueno"],
-    "url": "html/monsters/namielle.html",
-    "keywords": ["namielle", "dragon", "anciano", "agua", "rayo", "medusa"]
-  },
-  {
-    "title": "Nergigante",
-    "category": "Monstruo",
-    "type": "Dragón Anciano",
-    "element": null,
-    "weakness": ["Trueno", "Dragón"],
-    "url": "html/monsters/nergigante.html",
-    "keywords": ["nergigante", "dragon", "anciano", "puas", "espinas", "final"]
-  },
-  {
-    "title": "Rathalos",
-    "category": "Monstruo",
-    "type": "Wyvern Volador",
-    "element": "Fuego",
-    "weakness": ["Dragón", "Trueno"],
-    "url": "html/monsters/rathalos.html",
-    "keywords": ["rathalos", "wyvern", "volador", "fuego", "rey", "cielo", "rojo"]
-  },
-  {
-    "title": "Teostra",
-    "category": "Monstruo",
-    "type": "Dragón Anciano",
-    "element": "Fuego",
-    "weakness": ["Agua", "Trueno"],
-    "url": "html/monsters/teostra.html",
-    "keywords": ["teostra", "dragon", "anciano", "fuego", "explosion", "leon"]
-  },
-  {
-    "title": "Tigrex",
-    "category": "Monstruo",
-    "type": "Wyvern Volador",
-    "element": null,
-    "weakness": ["Trueno", "Dragón"],
-    "url": "html/monsters/tigrex.html",
-    "keywords": ["tigrex", "wyvern", "volador", "rugido", "antiguo"]
-  },
-  {
-    "title": "Velkhana",
-    "category": "Monstruo",
-    "type": "Dragón Anciano",
-    "element": "Hielo",
-    "weakness": ["Fuego", "Dragón"],
-    "url": "html/monsters/velkhana.html",
-    "keywords": ["velkhana", "dragon", "anciano", "hielo", "cristal", "blanco"]
-  },
-  {
-    "title": "Zinogre",
-    "category": "Monstruo",
-    "type": "Bestia de Colmillos",
-    "element": "Trueno",
-    "weakness": ["Hielo", "Agua"],
-    "url": "html/monsters/zinogre.html",
-    "keywords": ["zinogre", "bestia", "colmillos", "trueno", "lobo", "rayo"]
-  },
-
-  {
-    "title": "Wyverns Volador",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/wyverns-volador.html",
-    "keywords": ["wyvern", "volador", "volar", "categoria", "tipo"]
-  },
-  {
-    "title": "Wyverns Brutal",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/wyverns-brutal.html",
-    "keywords": ["wyvern", "brutal", "bruto", "categoria", "tipo"]
-  },
-  {
-    "title": "Dragones Ancianos",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/dragones-ancianos.html",
-    "keywords": ["dragon", "anciano", "elder", "categoria", "tipo"]
-  },
-  {
-    "title": "Bestias Colmillos",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/bestias-colmillos.html",
-    "keywords": ["bestia", "colmillos", "fanged", "categoria", "tipo"]
-  },
-  {
-    "title": "Leviatanes",
-    "category": "Categoría",
-    "url": "html/monsters/categorias/leviatanes.html",
-    "keywords": ["leviatan", "agua", "serpiente", "categoria", "tipo"]
-  },
-
-  {
-    "title": "Gran Espada",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/gran_espada.html",
-    "keywords": ["gran", "espada", "greatsword", "lenta", "poderosa", "carga"]
-  },
-  {
-    "title": "Arco",
-    "category": "Arma",
-    "weaponType": "A distancia",
-    "url": "html/armas/arco.html",
-    "keywords": ["arco", "bow", "flechas", "distancia", "disparo"]
-  },
-  {
-    "title": "Espada Larga",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/espada-larga.html",
-    "keywords": ["espada", "larga", "longsword", "espiritu", "contador"]
-  },
-  {
-    "title": "Espada y Escudo",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/espada-escudo.html",
-    "keywords": ["espada", "escudo", "sword", "shield", "agil", "rápido"]
-  },
-  {
-    "title": "Martillo",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/martillo.html",
-    "keywords": ["martillo", "hammer", "cabeza", "romper", "aturdir"]
-  },
-  {
-    "title": "Lanza",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/lanza.html",
-    "keywords": ["lanza", "lance", "escudo", "defensa", "empuje"]
-  },
-  {
-    "title": "Lanza Pistola",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/lanza-pistola.html",
-    "keywords": ["lanza", "pistola", "gunlance", "explosión", "disparo"]
-  },
-  {
-    "title": "Hacha Espada",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/hacha-espada.html",
-    "keywords": ["hacha", "espada", "switch", "axe", "transformar", "modo"]
-  },
-  {
-    "title": "Hacha Cargada",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/hacha-cargada.html",
-    "keywords": ["hacha", "cargada", "charge", "blade", "escudo", "phial"]
-  },
-  {
-    "title": "Glaive Insecto",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/glaive-insecto.html",
-    "keywords": ["glaive", "insecto", "kinsect", "saltar", "volar", "esencia"]
-  },
-  {
-    "title": "Ballesta Ligera",
-    "category": "Arma",
-    "weaponType": "A distancia",
-    "url": "html/armas/ballesta-ligera.html",
-    "keywords": ["ballesta", "ligera", "light", "bowgun", "rápido", "disparo"]
-  },
-  {
-    "title": "Ballesta Pesada",
-    "category": "Arma",
-    "weaponType": "A distancia",
-    "url": "html/armas/ballesta-pesada.html",
-    "keywords": ["ballesta", "pesada", "heavy", "bowgun", "potente", "disparo"]
-  },
-  {
-    "title": "Espadas Dobles",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/espadas-dobles.html",
-    "keywords": ["espadas", "dobles", "dual", "blades", "rápido", "elemento"]
-  },
-  {
-    "title": "Cornamusa",
-    "category": "Arma",
-    "weaponType": "Cuerpo a cuerpo",
-    "url": "html/armas/cornamusa.html",
-    "keywords": ["cornamusa", "hunting", "horn", "música", "melodías", "buffs"]
+    "keywords": [
+      "crear",
+      "cuenta",
+      "register"
+    ]
   }
 ]
